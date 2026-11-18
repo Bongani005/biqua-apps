@@ -1,0 +1,1156 @@
+{
+  "source": {
+    "title": "Microsoft Certified Azure Fundamentals Study Guide: Exam AZ-900",
+    "author": "Jim Boyce",
+    "uploaded_file": "microsoft-certified-azure-fundamentals az-900.pdf",
+    "note": "Questions and answer explanations are extracted from the uploaded PDF. Wording and terminology follow the source."
+  },
+  "sections": [
+    {
+      "id": "assessment_test",
+      "question_count": 67,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "Microsoft Azure enables your organization to move IT expenditures to:\nA. Capital expenditures\nB. \nOperational expenditures\nC. \nA controlled expense model\nD. None of the above",
+          "answer": "B. Azure is a consumption-based cloud model in which you pay only for the services \nthat you consume, enabling you to move from a CapEx model to an OpEx model. \nSee Chapter 1 for more information.",
+          "answer_explanation": "B. Azure is a consumption-based cloud model in which you pay only for the services \nthat you consume, enabling you to move from a CapEx model to an OpEx model. \nSee Chapter 1 for more information."
+        },
+        {
+          "number": 2,
+          "question_and_options": "Which of the following tools can you use to estimate the expense of moving a data center \nfrom on-premises to Azure?\nA. Azure Pricing Calculator\nB. \nAzure Cost Management + Billing\nC. \nAzure TCO Calculator\nD. Azure CLI",
+          "answer": "C. The TCO Calculator helps you consider the costs of facilities, power, and related expenses \nassociated with moving services hosted in a data center to Azure.",
+          "answer_explanation": "C. The TCO Calculator helps you consider the costs of facilities, power, and related expenses \nassociated with moving services hosted in a data center to Azure."
+        },
+        {
+          "number": 3,
+          "question_and_options": "The term agility in Microsoft Azure refers to:\nA. The ease with which you can move workloads from on-premises to Azure and back again\nB. \nThe ability to quickly adjust resources such as memory to adapt to changes in demand\nC. \nThe ability to add more front-end web servers to a web application to adapt to increased \ndemand\nD. The ability to quickly create redundancy in a solution",
+          "answer": "B. Agility refers to the ability to adjust resources to meet changes in demand. \nSee Chapter 1 for more information.",
+          "answer_explanation": "B. Agility refers to the ability to adjust resources to meet changes in demand. \nSee Chapter 1 for more information."
+        },
+        {
+          "number": 4,
+          "question_and_options": "Which of the following describes the benefit economy of scale as it relates to Micro-\nsoft Azure?\nA.\nThe capability to distribute resources across multiple regions to reduce cost\nB.\nThe ability to place resources in less expensive Azure regions to reduce costs\nC.\nThe capability to automatically scale down the number of virtual machines in an Azure \nsolution to reduce costs when demand decreases\nD.\nThe decrease in price per subscriber as more subscribers are added\n\nIntroduction \nxxxiii",
+          "answer": "D. As the number of subscribers increases, the cost to provide a service to those subscribers \ngoes down because the cost is spread across more users, providing an economy of scale. \nSee Chapter 1 for more information.",
+          "answer_explanation": "D. As the number of subscribers increases, the cost to provide a service to those subscribers \ngoes down because the cost is spread across more users, providing an economy of scale. \nSee Chapter 1 for more information."
+        },
+        {
+          "number": 5,
+          "question_and_options": "Which of the following in an example of vertical scaling?\nA. Adding VMs to a web app as demand increases\nB. \nReducing memory allocated to VMs when demand decreases\nC. \nAdding CPU cores to a VM when demand increases\nD. Both B and C",
+          "answer": "D. Vertical scaling refers to adding or removing resources such as CPU cores or memory as \ndemand changes. See Chapter 2 for more information.",
+          "answer_explanation": "D. Vertical scaling refers to adding or removing resources such as CPU cores or memory as \ndemand changes. See Chapter 2 for more information."
+        },
+        {
+          "number": 6,
+          "question_and_options": "A service that provides the capability to deploy a SQL database without the need for you to \nset up a VM or install SQL Server is an example of:\nA. Infrastructure-as-a-service (IaaS)\nB. \nSoftware-as-a-service (SaaS)\nC. \nPlatform-as-a-service (PaaS)\nD. Data-as-a-service (DaaS)",
+          "answer": "C. This is an example of PaaS. See Chapter 1 for more information.",
+          "answer_explanation": "C. This is an example of PaaS. See Chapter 1 for more information."
+        },
+        {
+          "number": 7,
+          "question_and_options": "Accessing an application through a web page rather than installing the application on your \nlocal device is an example of:\nA. Infrastructure-as-a-service (IaaS)\nB. \nSoftware-as-a-service (SaaS)\nC. \nPlatform-as-a-service (PaaS)\nD. Data-as-a-service (DaaS)",
+          "answer": "B. This is an example of SaaS. See Chapter 1 for more information.",
+          "answer_explanation": "B. This is an example of SaaS. See Chapter 1 for more information."
+        },
+        {
+          "number": 8,
+          "question_and_options": "Deploying virtual machines (VMs) in a shared cloud environment is an example of:\nA. Infrastructure-as-a-service (IaaS)\nB. \nSoftware-as-a-service (SaaS)\nC. \nPlatform-as-a-service (PaaS)\nD. Data-as-a-service (DaaS)",
+          "answer": "A. This is an example of IaaS. See Chapter 1 for more information.",
+          "answer_explanation": "A. This is an example of IaaS. See Chapter 1 for more information."
+        },
+        {
+          "number": 9,
+          "question_and_options": "Which of the following accurately describes an Azure geography?\nA. It corresponds to a single country or to a market encompassing multiple countries.\nB. \nIt always corresponds to a specific country.\nC. \nIt represents a set of physical data centers.\nD. None of the above.",
+          "answer": "A. An Azure geography can align to a single country or to a market that encompasses mul-\ntiple countries, such as Europe. See Chapter 2 for more information.",
+          "answer_explanation": "A. An Azure geography can align to a single country or to a market that encompasses mul-\ntiple countries, such as Europe. See Chapter 2 for more information."
+        },
+        {
+          "number": 10,
+          "question_and_options": "An Azure region:\nA. Describes a specific Azure data center\nB. \nIs usually paired with another region to ensure high availability\nC. \nCan span across multiple countries\nD. Encompasses the data centers in which all of your Azure resources reside",
+          "answer": "B. Regions are usually paired with other regions in Azure to help ensure high availability. \nSee Chapter 2 for more information.",
+          "answer_explanation": "B. Regions are usually paired with other regions in Azure to help ensure high availability. \nSee Chapter 2 for more information."
+        },
+        {
+          "number": 11,
+          "question_and_options": "Azure China is a physically isolated instance of Azure available only to Chinese \ngovernment entities.\nA. Yes\nB. \nNo\n\nxxxiv \nIntroduction",
+          "answer": "B. Azure China is a physically isolated instance of Azure, but it is available to business as well \nas governmental organizations within China. See Chapter 4 for more information.",
+          "answer_explanation": "B. Azure China is a physically isolated instance of Azure, but it is available to business as well \nas governmental organizations within China. See Chapter 4 for more information."
+        },
+        {
+          "number": 12,
+          "question_and_options": "You are deploying three VMs in a single region as web front ends to a web application. You \nneed to ensure that power outages or other potential data center outages do not make your \nweb application unavailable. Which of the following achieves this goal?\nA. You place the VMs in an availability set.\nB. \nYou place the VMs in separate resource groups.\nC. \nYou place the VMs in different availability zones.\nD. You deploy additional VMs to other regions.",
+          "answer": "C. Distributing VMs across availability zones helps guard against data center outages. \nSee Chapter 2 for more information.",
+          "answer_explanation": "C. Distributing VMs across availability zones helps guard against data center outages. \nSee Chapter 2 for more information."
+        },
+        {
+          "number": 13,
+          "question_and_options": "What is the function of a resource group in Azure?\nA. It provides automatic scaling of CPU cores, memory, and other resources for VMs.\nB. \nIt enables you to establish a higher SLA for VMs.\nC. \nIt protects resources from being deleted.\nD. It serves as a logical container for Azure resources.",
+          "answer": "D. Resources groups serve as a logical container for Azure resources. See Chapter 2  \nfor more information.",
+          "answer_explanation": "D. Resources groups serve as a logical container for Azure resources. See Chapter 2  \nfor more information."
+        },
+        {
+          "number": 14,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Resource Manager enables you to deploy multiple resources using JSON-based \ntemplates.\nA. is the primary tool you use to manage resources in Azure.\nB. \nis the blade in Azure portal that provides access to resource management and monitoring \ntools, including management templates.\nC. \nenables you to interactively allocate additional CPU cores and memory to VMs.\nD. No change is needed.",
+          "answer": "D. The underlined fragment is correct. See Chapter 2 for more information.",
+          "answer_explanation": "D. The underlined fragment is correct. See Chapter 2 for more information."
+        },
+        {
+          "number": 15,
+          "question_and_options": "Which of the following statements is not true regarding Azure subscriptions?\nA. A subscription is aligned to a specific Azure region.\nB. \nYou can move resources from one subscription to another.\nC. \nSubscriptions can help simplify Azure billing and cost management.\nD. You can move a subscription to a new Azure AD tenant.",
+          "answer": "A. Subscriptions are just logical containers and therefore are not limited to a single region. \nSee Chapter 2 for more information.",
+          "answer_explanation": "A. Subscriptions are just logical containers and therefore are not limited to a single region. \nSee Chapter 2 for more information."
+        },
+        {
+          "number": 16,
+          "question_and_options": "Azure App Service provides support for multiple development languages, containers, and \nWindows and Linux.\nA.\nYes\nB.\nNo",
+          "answer": "A. The statement is true. See Chapter 2 for more information.",
+          "answer_explanation": "A. The statement is true. See Chapter 2 for more information."
+        },
+        {
+          "number": 17,
+          "question_and_options": "Which of the following can you use to orchestrate container management in Azure?\nA.\nAzure Container Instance (ACI)\nB.\nAzure Resource Manager\nC.\nAzure Kubernetes\nD. Azure CLI\n\nIntroduction \nxxxv",
+          "answer": "C. Azure Kubernetes provides orchestration services for containers that you create with ACI. \nSee Chapter 2 for more information.",
+          "answer_explanation": "C. Azure Kubernetes provides orchestration services for containers that you create with ACI. \nSee Chapter 2 for more information."
+        },
+        {
+          "number": 18,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below? Containers that you deploy in a group Azure \nsupport only the Linux OS.\nA. support only the Windows OS.\nB. \nshare the same OS as other containers in the group.\nC. \nrequire configuration of the OS for each container.\nD. No change is needed.",
+          "answer": "B. All containers in a group share the same OS. See Chapter 2 for more information.\n\nIntroduction \nxlv",
+          "answer_explanation": "B. All containers in a group share the same OS. See Chapter 2 for more information.\n\nIntroduction \nxlv"
+        },
+        {
+          "number": 19,
+          "question_and_options": "You need to set up a storage solution in Azure to enable you to store the state of an applica-\ntion from one execution of the application to the next. Which of the following storage solu-\ntions provide that capability?\nA. Azure Disk\nB. \nAzure Blob\nC. \nAzure Files\nD. Azure Archive",
+          "answer": "C. Azure Files enables you to save application state from one execution to another. \nSee Chapter 2 for more information.",
+          "answer_explanation": "C. Azure Files enables you to save application state from one execution to another. \nSee Chapter 2 for more information."
+        },
+        {
+          "number": 20,
+          "question_and_options": "Which of the following data solutions would be the most cost-efficient solution for storing \nand retrieving sales data for your sales team using SQL statements?\nA. Host a database using Azure SQL Database\nB. \nHost a database using Azure Managed SQL Instance\nC. \nInstall SQL Server on a VM in Azure\nD. Host a database using Cosmos DB",
+          "answer": "A. The most cost-effective option is to use Azure SQL Database. See Chapter 2  \nfor more information.",
+          "answer_explanation": "A. The most cost-effective option is to use Azure SQL Database. See Chapter 2  \nfor more information."
+        },
+        {
+          "number": 21,
+          "question_and_options": "Which of the following does not provide load balancing between resources in Azure?\nA. Azure Front Door\nB. \nAzure Traffic Manager\nC. \nAzure Load Balancer\nD. Azure network security groups (NSGs)",
+          "answer": "D. Azure NSGs do not provide load-balancing capability. See Chapter 4 for more information.",
+          "answer_explanation": "D. Azure NSGs do not provide load-balancing capability. See Chapter 4 for more information."
+        },
+        {
+          "number": 22,
+          "question_and_options": "You have deployed a web application in Azure and need HTTPS traffic to be routed to a \nspecific endpoint based on the requested URL. Which of the following load-balancing solu-\ntions provides this capability?\nA. Azure Traffic Manager\nB. \nAzure Load Balancer\nC. \nAzure Application Gateway\nD. Azure network security groups",
+          "answer": "C. Azure Application Gateway provides URL-based routing. See Chapter 4 for more information.",
+          "answer_explanation": "C. Azure Application Gateway provides URL-based routing. See Chapter 4 for more information."
+        },
+        {
+          "number": 23,
+          "question_and_options": "You need to ensure that network traffic between your on-premises data center and Azure \nis securely encrypted as it traverses the Internet, but you do not want your organization to \nmanage the service. Which of the following should you choose?\nA. Azure VPN Gateway\nB. \nAzure Point-to-Point VPN\n\nxxxvi \nIntroduction\nC. \nAzure ExpressRoute\nD. Azure ExpressRoute Direct",
+          "answer": "C. Azure ExpressRoute is the appropriate solution to provide VPN across the Internet, \nmanaged by a third party. See Chapter 4 for more information.",
+          "answer_explanation": "C. Azure ExpressRoute is the appropriate solution to provide VPN across the Internet, \nmanaged by a third party. See Chapter 4 for more information."
+        },
+        {
+          "number": 24,
+          "question_and_options": "Your organization has compliance restrictions that prevent your data from traversing the \nInternet between your on-premises data center and your resources in Azure. Which of the fol-\nlowing provides a solution for this requirement?\nA. Azure Managed VPN\nB. \nAzure ExpressRoute Direct\nC. \nAzure VPN Gateway\nD. Azure ExpressRoute",
+          "answer": "B. Azure ExpressRoute Direct provides similar capabilities as Azure ExpressRoute but is not \nrouted across the Internet. See Chapter 4 for more information.",
+          "answer_explanation": "B. Azure ExpressRoute Direct provides similar capabilities as Azure ExpressRoute but is not \nrouted across the Internet. See Chapter 4 for more information."
+        },
+        {
+          "number": 25,
+          "question_and_options": "Which of the following is an appropriate solution for placing video files and large documents \nclose to where your globally dispersed users are located to reduce latency?\nA. A dedicated point-to-point VPN connection between the source files and each location.\nB. \nAzure DirectRoute\nC. \nAzure Content Delivery Network\nD. None of the above",
+          "answer": "C. Azure Content Delivery Network (CDN) enables you to place replicas of content  \ngeographically near the users who need to consume the content. See Chapter 4 for  \nmore information.",
+          "answer_explanation": "C. Azure Content Delivery Network (CDN) enables you to place replicas of content  \ngeographically near the users who need to consume the content. See Chapter 4 for  \nmore information."
+        },
+        {
+          "number": 26,
+          "question_and_options": "Which of the following solutions would enable only you and one of your peers to access and \nmanage an Azure VM using RDP on port 3389?\nA. Role-based access control (RBAC) and an Azure network security group (NSG)\nB. \nAn appropriately designed Azure policy applied to the resource group containing the \nVM\nC. \nAzure Firewall\nD. Azure Front Door",
+          "answer": "A. An Azure NSG enables you to restrict access to the VM based on port, and RBAC enables \nyou to restrict access to specific individuals. See Chapter 4 for more information.",
+          "answer_explanation": "A. An Azure NSG enables you to restrict access to the VM based on port, and RBAC enables \nyou to restrict access to specific individuals. See Chapter 4 for more information."
+        },
+        {
+          "number": 27,
+          "question_and_options": "You are deploying a VM-based solution, and due to security and compliance requirements, \nall traffic reaching that VM must come from a single endpoint located in a different subnet. \nWhich of the following solutions meets this requirement?\nA.\nCreate a network security group (NSG) with the appropriate routing and apply the NSG \nto all virtual networks.\nB.\nCreate a user-defined route and apply it to all subnets in the virtual network.\nC.\nUse Azure Firewall to route traffic to the target VM based on the IP address in the \nresource request URL.\nD.\nCreate a custom route in Azure Firewall to direct traffic to the endpoint based on source \nand destination address.",
+          "answer": "B. To implement custom routing, create a user-defined route and apply it to all relevant \nvirtual networks. See Chapter 4 for more information.",
+          "answer_explanation": "B. To implement custom routing, create a user-defined route and apply it to all relevant \nvirtual networks. See Chapter 4 for more information."
+        },
+        {
+          "number": 28,
+          "question_and_options": "Replace the underlined section of the statement if needed to make the statement true:\nAzure DDoS Protection Standard alerts you to DNS attacks as they are happening.\nA.\nbegins protecting resources from DNS attacks as soon as you configure DDoS on the \nresource.\nB.\nbegins protecting resources from DNS attacks as soon as you configure the service on a \nvirtual network.\n\nIntroduction \nxxxvii\nC. \nprovides protection and alerts against DDoS attacks but does not provide mitigation \nreporting.\nD. No change is needed.",
+          "answer": "D. No change is needed, since DDoS Standard provides alerting to ongoing distrib-\nuted denial-of-service (DDoS) attacks. It also provides alerting and mitigation reporting. \nSee Chapter 4 for more information.",
+          "answer_explanation": "D. No change is needed, since DDoS Standard provides alerting to ongoing distrib-\nuted denial-of-service (DDoS) attacks. It also provides alerting and mitigation reporting. \nSee Chapter 4 for more information."
+        },
+        {
+          "number": 29,
+          "question_and_options": "Which of the following is an example of authorization?\nA. Providing a username and password when logging in to your device\nB. \nReceiving a text message on your mobile device after providing a username and pass-\nword for a website\nC. \nPresenting a passport to enter another country\nD. Presenting a visa to enter another country",
+          "answer": "D. In this example, the first three options are examples of authentication (identifying the \nholder), but do not authorize the user. The visa provides that authorization for entering the \ncountry. See Chapter 4 for more information.",
+          "answer_explanation": "D. In this example, the first three options are examples of authentication (identifying the \nholder), but do not authorize the user. The visa provides that authorization for entering the \ncountry. See Chapter 4 for more information."
+        },
+        {
+          "number": 30,
+          "question_and_options": "Which of the following capabilities requires Azure AD Premium?\nA. Enabling users to reset their own Azure AD passwords\nB. \nEnabling users to reset their own on-premises passwords\nC. \nControlling access to resources in Azure through role-based access control (RBAC)\nD. All of the above",
+          "answer": "B. Adding the capability to synchronize password changes to on-premises AD requires Azure \nAD Premium. See Chapter 4 for more information.",
+          "answer_explanation": "B. Adding the capability to synchronize password changes to on-premises AD requires Azure \nAD Premium. See Chapter 4 for more information."
+        },
+        {
+          "number": 31,
+          "question_and_options": "Which of the following Azure services offers security recommendations for improving  \nsecurity in your Azure environment?\nA. Azure Advanced Threat Protection (ATP)\nB. \nAzure Information Protection (AIP)\nC. \nAzure Security Center\nD. Azure Service Health",
+          "answer": "C. Security Center provides recommendations on improving security, as well as monitoring \nand alerts. See Chapter 4 for more information.",
+          "answer_explanation": "C. Security Center provides recommendations on improving security, as well as monitoring \nand alerts. See Chapter 4 for more information."
+        },
+        {
+          "number": 32,
+          "question_and_options": "You are a developer and need to store security credentials for a web application in a secure \nstore in Azure. Which of the following meets this need?\nA. Azure AD Premium\nB. \nSecurity Center\nC. \nAzure Credential Manager\nD. Azure Key Vault",
+          "answer": "D. Azure Key Vault is the appropriate place to store secrets such as security credentials in \nAzure. See Chapter 4 for more information.",
+          "answer_explanation": "D. Azure Key Vault is the appropriate place to store secrets such as security credentials in \nAzure. See Chapter 4 for more information."
+        },
+        {
+          "number": 33,
+          "question_and_options": "Your CIO has directed you to implement a solution that enables your organization to protect \nemails and documents using policies, identities, and encryption. Which of the following sat-\nisfies this requirement?\nA.\nAzure Advanced Threat Protection (ATP)\nB.\nAzure Policies\nC.\nAzure Initiatives\nD.\nAzure Information Protection (AIP)\n\nxxxviii \nIntroduction",
+          "answer": "D. Azure Information Protection (AIP) provides the capability to protect emails and documents \nusing policies, identities, and encryption. See Chapter 4 for more information.",
+          "answer_explanation": "D. Azure Information Protection (AIP) provides the capability to protect emails and documents \nusing policies, identities, and encryption. See Chapter 4 for more information."
+        },
+        {
+          "number": 34,
+          "question_and_options": "Because of a recent network intrusion, you need to present a solution to your CIO that will \nenable your organization to identify pass-the-hash and reconnaissance attacks. Which of the \nfollowing is an appropriate solution?\nA. Windows Defender\nB. \nAdvanced Threat Protection\nC. \nAzure Information Protection\nD. Security Center",
+          "answer": "B. Advanced Threat Protection (ATP) provides protection from many kinds \nof security threats, including pass-the-hash, pass-the-token, and others. \nSee Chapter 4 for more information.",
+          "answer_explanation": "B. Advanced Threat Protection (ATP) provides protection from many kinds \nof security threats, including pass-the-hash, pass-the-token, and others. \nSee Chapter 4 for more information."
+        },
+        {
+          "number": 35,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nA honeytoken attack tests multiple passwords against a username.\nA. attempts authentication against an alphabetical list of usernames.\nB. \nis an attempt to log in to a fake account that you have created.\nC. \nis an example of a pass-the-token attack.\nD. No change is needed.",
+          "answer": "B. A honeytoken attack is an attempt to authenticate to a fake account that you have created \nas a “honeypot” to attract attackers. See Chapter 4 for more information.\n\nxlvi \nIntroduction",
+          "answer_explanation": "B. A honeytoken attack is an attempt to authenticate to a fake account that you have created \nas a “honeypot” to attract attackers. See Chapter 4 for more information.\n\nxlvi \nIntroduction"
+        },
+        {
+          "number": 36,
+          "question_and_options": "Which of the following would you use to ensure that the VMs added to a resource group do \nnot exceed certain limits for the number of CPU cores and memory?\nA. Azure Initiatives\nB. \nAzure Configuration Manager\nC. \nAzure Policies\nD. Resource Locks",
+          "answer": "C. You can use Azure Policies to enforce restrictions on VM resources. \nSee Chapter 4 for more information.",
+          "answer_explanation": "C. You can use Azure Policies to enforce restrictions on VM resources. \nSee Chapter 4 for more information."
+        },
+        {
+          "number": 37,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Policies enable you to specify what actions a user can take with a resource in Azure \nafter they have authenticated in Azure.\nA. apply policies to a single resource or to a resource group, with the latter causing all \nresources in the group to have the policy applied.\nB. \ncreate policies in Security Center to control access to specific Azure resources.\nC. \ndeploy specific sets of RBAC permissions to new Azure users.\nD. No change is needed.",
+          "answer": "A. You can apply policies at the resource or resource group levels, and if at the resource \ngroup, the policies apply to all resources in the group. See Chapter 4 for more information.",
+          "answer_explanation": "A. You can apply policies at the resource or resource group levels, and if at the resource \ngroup, the policies apply to all resources in the group. See Chapter 4 for more information."
+        },
+        {
+          "number": 38,
+          "question_and_options": "Which of the following would you use to prevent resources in a resource group from \nbeing deleted?\nA.\nRole-based access control (RBAC)\nB.\nPolicies\nC.\nResource locks\nD.\nAzure Information Protection (AIP)\n\nIntroduction \nxxxix",
+          "answer": "C. Locking a resource with the CanNotDelete lock prevents resources in the resource group \nfrom being deleted. The lock must be removed before a resource in the group can be deleted. \nSee Chapter 4 for more information.",
+          "answer_explanation": "C. Locking a resource with the CanNotDelete lock prevents resources in the resource group \nfrom being deleted. The lock must be removed before a resource in the group can be deleted. \nSee Chapter 4 for more information."
+        },
+        {
+          "number": 39,
+          "question_and_options": "Which of the following should you use to implement a large, repeatable deployment of \nresources in Azure with associated role assignments and policies?\nA. Azure PowerShell\nB. \nAzure CLI\nC. \nAzure Initiatives\nD. Azure Blueprints",
+          "answer": "D. Blueprints enable you to create large, repeatable deployments of resources in Azure with \ncorresponding role and policy assignments. See Chapter 4 for more information.",
+          "answer_explanation": "D. Blueprints enable you to create large, repeatable deployments of resources in Azure with \ncorresponding role and policy assignments. See Chapter 4 for more information."
+        },
+        {
+          "number": 40,
+          "question_and_options": "Which of the following accurately describes Azure Monitor?\nA. Azure Monitor supports only Windows operating systems and SUSE Linux.\nB. \nAzure Monitor begins monitoring a resource as soon as you create the resource.\nC. \nAzure Monitor is a component service of Azure Telemetry and Reporting.\nD. Azure Monitor requires you to create logs and metrics to begin monitoring resources.",
+          "answer": "B. You do not need to configure Azure Monitor for it to begin monitoring a \nresource. Instead, Azure Monitor begins monitoring as soon as you create a resource. \nSee Chapter 4 for more information.",
+          "answer_explanation": "B. You do not need to configure Azure Monitor for it to begin monitoring a \nresource. Instead, Azure Monitor begins monitoring as soon as you create a resource. \nSee Chapter 4 for more information."
+        },
+        {
+          "number": 41,
+          "question_and_options": "Which of the following would you use to view status information about resources that your \norganization hosts in Azure?\nA. Azure PowerShell\nB. \nAzure Service Health\nC. \nAzure portal\nD. Azure Security Center",
+          "answer": "B. Azure Service Health enables you to view status information for resources that you host in \nAzure. See Chapter 4 for more information.",
+          "answer_explanation": "B. Azure Service Health enables you to view status information for resources that you host in \nAzure. See Chapter 4 for more information."
+        },
+        {
+          "number": 42,
+          "question_and_options": "Which of the following should you use to view information about planned mainte-\nnance in Azure?\nA. Azure Advisor\nB. \nAzure Update Center\nC. \nAzure Service Health\nD. None of the above",
+          "answer": "C. Azure Service Health enables you to view information about planned maintenance in \nAzure. See Chapter 4 for more information.",
+          "answer_explanation": "C. Azure Service Health enables you to view information about planned maintenance in \nAzure. See Chapter 4 for more information."
+        },
+        {
+          "number": 43,
+          "question_and_options": "Which of the following is not an example of a standards-based, nonregulatory organization \nor agency?\nA.\nGDPR\nB.\nISO\nC.\nNIST\nD.\nAll of the above",
+          "answer": "A. ISO and NIST are both standards-based, nonregulatory agencies. General Data Protec-\ntion Regulation (GDPR) defines data protection and privacy requirements as a regulation in \nEuropean Union law. See Chapter 4 for more information.",
+          "answer_explanation": "A. ISO and NIST are both standards-based, nonregulatory agencies. General Data Protec-\ntion Regulation (GDPR) defines data protection and privacy requirements as a regulation in \nEuropean Union law. See Chapter 4 for more information."
+        },
+        {
+          "number": 44,
+          "question_and_options": "Which of the following statements are not true? (Choose all that apply.)\nA.\nMicrosoft can share your personal information with vendors and third parties only with \nyour authorization.\nB.\nYou must provide personal information to use some Microsoft products.\nC.\nYou cannot use a work email when setting up a Microsoft account that you will then use \nto access Microsoft services.\nD.\nYou can use a personal email account when setting up a Microsoft account that you will \nthen use to access Microsoft services.\n\nxl \nIntroduction",
+          "answer": "A, C. Microsoft can share your personal information with vendors and third parties without \nyour consent, including in response to legal actions. You can use a work email when setting \nup a Microsoft account. See Chapter 4 for more information.",
+          "answer_explanation": "A, C. Microsoft can share your personal information with vendors and third parties without \nyour consent, including in response to legal actions. You can use a work email when setting \nup a Microsoft account. See Chapter 4 for more information."
+        },
+        {
+          "number": 45,
+          "question_and_options": "Which of the following provides bidirectional communication between Internet of Things \n(IoT) devices and other Azure services?\nA. IoT Hub\nB. \nIoT Central\nC. \nIoT Connector\nD. None of the above",
+          "answer": "A. IoT Hub provides bidirectional communication between IoT devices in \nAzure. See Chapter 5 for more information.",
+          "answer_explanation": "A. IoT Hub provides bidirectional communication between IoT devices in \nAzure. See Chapter 5 for more information."
+        },
+        {
+          "number": 46,
+          "question_and_options": "Which of the following would enable your organization to monitor and control thousands of \nsensors deployed in a manufacturing facility, including analyzing telemetry from the sensors?\nA. IoT Hub\nB. \nIoT Central\nC. \nIoT Connector\nD. Azure Sphere",
+          "answer": "B. IoT Central enables you to monitor and control IoT devices. See Chapter 5 for  \nmore information.",
+          "answer_explanation": "B. IoT Central enables you to monitor and control IoT devices. See Chapter 5 for  \nmore information."
+        },
+        {
+          "number": 47,
+          "question_and_options": "Your organization needs to implement a solution that analyzes photos and videos. Which of \nthe following should you consider as a solution?\nA. Azure Machine Learning\nB. \nMachine Learning Studio\nC. \nCognitive Services\nD. Azure Analytics",
+          "answer": "C. Cognitive Services provides human-like analysis services in Azure. See Chapter 5 for  \nmore information.",
+          "answer_explanation": "C. Cognitive Services provides human-like analysis services in Azure. See Chapter 5 for  \nmore information."
+        },
+        {
+          "number": 48,
+          "question_and_options": "Which of the following would you choose to add natural language question and answer \ncapabilities to a web application?\nA. Azure Machine Learning\nB. \nAzure Cognitive Services\nC. \nAzure Bot Services\nD. Logic Apps",
+          "answer": "C. Azure Bot Services provides human-like interaction, including natural language question-\nand-answer capabilities. See Chapter 5 for more information.",
+          "answer_explanation": "C. Azure Bot Services provides human-like interaction, including natural language question-\nand-answer capabilities. See Chapter 5 for more information."
+        },
+        {
+          "number": 49,
+          "question_and_options": "Which of the following enables developers to create serverless workflow solutions in Azure?\nA. Logic Apps\nB. \nFunctions\nC. \nBot Services\nD. PowerShell",
+          "answer": "A. Azure Logic Apps enables you to create serverless workflow solutions in Azure.  \nSee Chapter 5 for more information.",
+          "answer_explanation": "A. Azure Logic Apps enables you to create serverless workflow solutions in Azure.  \nSee Chapter 5 for more information."
+        },
+        {
+          "number": 50,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Functions is a solution for creating serverless, stateless functions that can be called \nfrom other Azure services to perform data processing.\nA.\na solution for building workflow-based functions that integrate with other Azure ser-\nvices to perform data processing.\nB.\na component of Azure DevOps that helps simplify development and deployment of \nserverless, stateful functions for data processing.\n\nIntroduction \nxli\nC. \na library of functions you can implement in your web applications to monitor and man-\nage Azure services.\nD. No change is needed.",
+          "answer": "D. The statement is correct, so no change is needed. See Chapter 5 for more information.",
+          "answer_explanation": "D. The statement is correct, so no change is needed. See Chapter 5 for more information."
+        },
+        {
+          "number": 51,
+          "question_and_options": "Which of the following is a popular code repository for open source software development?\nA. Azure DevTest Labs\nB. \nAzure DevOps\nC. \nGitHub\nD. Azure Artifacts",
+          "answer": "C. Although Azure DevOps provides features and functions similar to GitHub, GitHub is \nintended for open source projects. See Chapter 5 for more information.\n\nIntroduction \nxlvii",
+          "answer_explanation": "C. Although Azure DevOps provides features and functions similar to GitHub, GitHub is \nintended for open source projects. See Chapter 5 for more information.\n\nIntroduction \nxlvii"
+        },
+        {
+          "number": 52,
+          "question_and_options": "Your CIO has asked you to investigate Azure as an alternative to hosting resources in \nyour on-premises data center. What is the first action you need to take before creating \nresources in Azure?\nA. Create a storage account.\nB. \nCreate an account in Azure AD.\nC. \nCreate an Azure subscription.\nD. Create an Azure AD tenant.",
+          "answer": "C. The first step before you create or use any resources in Azure is to create a subscription to \nhost those resources. See Chapter 6 for more information.",
+          "answer_explanation": "C. The first step before you create or use any resources in Azure is to create a subscription to \nhost those resources. See Chapter 6 for more information."
+        },
+        {
+          "number": 53,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nYou can purchase Azure services only through an enterprise agreement (EA).\nA. as a component of your Unified Support agreement with Microsoft.\nB. \ndirectly from Microsoft through the Azure portal.\nC. \nonly through a cloud solution provider (CSP).\nD. No change is needed.",
+          "answer": "B. Although you can purchase Azure through an EA, a CSP, and the Azure portal, only option \nB is correct as stated. See Chapter 6 for more information.",
+          "answer_explanation": "B. Although you can purchase Azure through an EA, a CSP, and the Azure portal, only option \nB is correct as stated. See Chapter 6 for more information."
+        },
+        {
+          "number": 54,
+          "question_and_options": "You have been tasked by the director of infrastructure at your organization to estimate the \ncost of moving a data center from on-premises to Azure. Which of the following should you \nuse to estimate the cost?\nA. Azure Advisor\nB. \nPricing Calculator\nC. \nTCO Calculator\nD. Azure Migration Planner",
+          "answer": "C. The TCO Calculator enables you to factor in facilities costs and other factors when esti-\nmating a move from on-premises to Azure. See Chapter 6 for more information.",
+          "answer_explanation": "C. The TCO Calculator enables you to factor in facilities costs and other factors when esti-\nmating a move from on-premises to Azure. See Chapter 6 for more information."
+        },
+        {
+          "number": 55,
+          "question_and_options": "Which of the following should you use to estimate the cost of storage that you will include \nwith three new VMs that you need to deploy to Azure?\nA.\nPricing Calculator\nB.\nStorage Calculator\nC.\nTCO Calculator\nD.\nAzure Advisor\n\nxlii \nIntroduction",
+          "answer": "A. The Pricing Calculator enables you to price individual Azure services based on factors \nsuch as CPU cores, memory, and storage capacity. See Chapter 6 for more information.",
+          "answer_explanation": "A. The Pricing Calculator enables you to price individual Azure services based on factors \nsuch as CPU cores, memory, and storage capacity. See Chapter 6 for more information."
+        },
+        {
+          "number": 56,
+          "question_and_options": "Which of the following statements is not true?\nA. Azure Advisor provides recommendations for cost management.\nB. \nAzure Advisor provides recommendations for operational excellence.\nC. \nAzure Advisor provides recommendations for security.\nD. Azure Advisor provides reporting for the health and status of Azure services.",
+          "answer": "D. Azure Advisor does not provide reporting for health and status of Azure services.  \nSee Chapter 4 for more information.",
+          "answer_explanation": "D. Azure Advisor does not provide reporting for health and status of Azure services.  \nSee Chapter 4 for more information."
+        },
+        {
+          "number": 57,
+          "question_and_options": "Which of the following provides significant discounts for purchasing Azure services?\nA. Azure Reserved Instances (ARI)\nB. \nAzure Reservations\nC. \nAzure Managed Services\nD. Azure Enterprise",
+          "answer": "B. Azure Reservations enables you to reserve Azure resources with a monetary commitment  \nand receive potentially very significant discounts as a result. See Chapter 6 for  \nmore information.",
+          "answer_explanation": "B. Azure Reservations enables you to reserve Azure resources with a monetary commitment  \nand receive potentially very significant discounts as a result. See Chapter 6 for  \nmore information."
+        },
+        {
+          "number": 58,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nYour organization currently has two Azure subscriptions. Adding a third Azure subscription \nwill increase your Azure consumption and costs.\nA. enable you to deploy Azure resources in other regions.\nB. \nrequire you to create a third Azure AD tenant.\nC. \nnot cause any cost increase by itself.\nD. No change is needed.",
+          "answer": "C. Adding an Azure subscription does not by itself result in additional costs, because a \nsubscription is just a logical container for Azure resources, which could be existing resources \nthat you move to the new subscription. See Chapter 6 for more information.",
+          "answer_explanation": "C. Adding an Azure subscription does not by itself result in additional costs, because a \nsubscription is just a logical container for Azure resources, which could be existing resources \nthat you move to the new subscription. See Chapter 6 for more information."
+        },
+        {
+          "number": 59,
+          "question_and_options": "Which of the following enables you to bring your existing licenses for SQL Server into Azure \nto save licensing costs?\nA. Azure Hybrid Benefit\nB. \nAn enterprise agreement\nC. \nSQL Managed Instance\nD. Cosmos DB",
+          "answer": "A. Azure Hybrid Benefit enables you to potentially use your Windows Server and SQL Server \nlicenses in Azure to save costs. See Chapter 6 for more information.",
+          "answer_explanation": "A. Azure Hybrid Benefit enables you to potentially use your Windows Server and SQL Server \nlicenses in Azure to save costs. See Chapter 6 for more information."
+        },
+        {
+          "number": 60,
+          "question_and_options": "You manage internal Azure billing for your organization, allocating costs to various depart-\nments based on their consumption of Azure services. Which of the following would you use \nto define budgets for subscriptions?\nA. Azure Cost Management + Billing\nB. \nAzure Cost Management\nC. \nAzure Monitor\nD. Azure Quota Management",
+          "answer": "B. Azure Cost Management enables you to define budgets for your Azure subscriptions and \ntrack expenditures. See Chapter 6 for more information.",
+          "answer_explanation": "B. Azure Cost Management enables you to define budgets for your Azure subscriptions and \ntrack expenditures. See Chapter 6 for more information."
+        },
+        {
+          "number": 61,
+          "question_and_options": "You have a solution in Azure comprising two VMs, each with a 99.5% SLA. What is the \ncomposite SLA for the solution?\nA.",
+          "answer": "A. Composite SLAs are the product of the individual SLAs in the solution, and in this case, \nwould be 0.995 × 0.995. See Chapter 6 for more information.",
+          "answer_explanation": "A. Composite SLAs are the product of the individual SLAs in the solution, and in this case, \nwould be 0.995 × 0.995. See Chapter 6 for more information."
+        },
+        {
+          "number": 62,
+          "question_and_options": "Which of the following statements are true regarding public preview features in Azure? \n(Choose all that apply.)\nA. They are available to all Azure customers.\nB. \nThe are available only by invitation from Microsoft.\nC. \nThey are subject to the same SLAs as generally available (GA) services.\nD. They are not subject to SLAs.",
+          "answer": "A, D. Services in public preview are available to all Azure subscribers and are not subject to \nservice level agreements (SLAs). See Chapter 6 for more information.",
+          "answer_explanation": "A, D. Services in public preview are available to all Azure subscribers and are not subject to \nservice level agreements (SLAs). See Chapter 6 for more information."
+        },
+        {
+          "number": 63,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nMicrosoft provides at least 30 days’ notice before it retires an Azure service.\nA. 6 months\nB. \n12 months\nC. \n2 year\nD. 5 years",
+          "answer": "B. Microsoft provides 12 months’ notice before retiring an Azure service. See Chapter 6  \nfor more information.",
+          "answer_explanation": "B. Microsoft provides 12 months’ notice before retiring an Azure service. See Chapter 6  \nfor more information."
+        },
+        {
+          "number": 64,
+          "question_and_options": "Which of the following would you choose to perform management tasks in Azure as an expe-\nrienced Linux administrator?\nA.\nAzure PowerShell\nB.\nAzure CLI\nC.\nAzure Tools for Linux\nD.\nAzure Power Tools for Linux",
+          "answer": "B. Azure CLI is an implementation of the Bash shell, making it an excellent management tool \nfor experienced Linux administrators. See Chapter 7 for more information.",
+          "answer_explanation": "B. Azure CLI is an implementation of the Bash shell, making it an excellent management tool \nfor experienced Linux administrators. See Chapter 7 for more information."
+        },
+        {
+          "number": 65,
+          "question_and_options": "What function does the Azure Cloud Shell provide?\nA.\nIt enables you to run either PowerShell or the Azure CLI from a web browser.\nB.\nIt is a library of management functions that you can integrate into your web apps to \nmonitor Azure services.\nC.\nIt enables you to run PowerShell commands within the Azure CLI.\nD.\nAll of the above.",
+          "answer": "A. The Azure Cloud Shell enables you to run either PowerShell or the Azure CLI from the \nAzure portal. See Chapter 7 for more information.",
+          "answer_explanation": "A. The Azure Cloud Shell enables you to run either PowerShell or the Azure CLI from the \nAzure portal. See Chapter 7 for more information."
+        },
+        {
+          "number": 66,
+          "question_and_options": "Which of the following is not a true statement?\nA.\nYou can use the Azure Mobile App to run the Azure CLI.\nB.\nYou can run Azure CLI directly in the Azure portal.\nC.\nYou can run the Azure CLI from within the Azure Cloud Shell.\nD.\nYou can install the Azure CLI on a Windows device.",
+          "answer": "B. You cannot run the Azure CLI directly in the Azure portal, but instead must open  \nthe Azure Cloud Shell from the portal and then choose Azure CLI. See Chapter 7 for  \nmore information.",
+          "answer_explanation": "B. You cannot run the Azure CLI directly in the Azure portal, but instead must open  \nthe Azure Cloud Shell from the portal and then choose Azure CLI. See Chapter 7 for  \nmore information."
+        },
+        {
+          "number": 67,
+          "question_and_options": "Which of the following is a good option for deploying a single VM in Azure?\nA.\nAzure portal\nB.\nAn Azure Resource Manager (ARM) template\nC.\nAzure Mobile App\nD.\nPowerShell",
+          "answer": "A. Although you could use any of these options to deploy a VM, the Azure portal is the  \neasiest option for deploying a single resource. See Chapter 7 for more information.",
+          "answer_explanation": "A. Although you could use any of these options to deploy a VM, the Azure portal is the  \neasiest option for deploying a single resource. See Chapter 7 for more information."
+        }
+      ]
+    },
+    {
+      "id": "chapter_1_cloud_concepts",
+      "question_count": 12,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAs a cloud service, Microsoft Azure enables your organization to budget IT infrastructure \ncosts as a capital expenditure.\nA. as an operational expenditure.\nB. \non an annual basis.\nC. \nusing the Azure Pricing Estimator.\nD. No change is needed.",
+          "answer": "A. Azure enables your organization to pay for only those services it uses, which enables you \nto budget your IT infrastructure costs as an operational expenditure based on the services \nyou consume in each month. Operational expenditures are generally those that you consume \non a pay-as-you-go basis. By contrast, purchasing hardware and software would require a \ncapital expenditure, which is an acquisition of fixed assets.",
+          "answer_explanation": "A. Azure enables your organization to pay for only those services it uses, which enables you \nto budget your IT infrastructure costs as an operational expenditure based on the services \nyou consume in each month. Operational expenditures are generally those that you consume \non a pay-as-you-go basis. By contrast, purchasing hardware and software would require a \ncapital expenditure, which is an acquisition of fixed assets."
+        },
+        {
+          "number": 2,
+          "question_and_options": "The cost per subscriber decreases as the number of Azure subscribers increases. Which benefit \nof cloud computing does this statement describe?\nA. Agility\nB. \nScalability\nC. \nEconomy of scale\nD. Elasticity",
+          "answer": "C. Microsoft acquires large amounts of hardware and other infrastructure resources to \nsupport Azure, enabling it to purchase at a reduced cost, which represents an economy \nof scale. In addition, distributing those resources among multiple customers also drives \neconomy of scale and reduces the end cost to consumers of Azure.",
+          "answer_explanation": "C. Microsoft acquires large amounts of hardware and other infrastructure resources to \nsupport Azure, enabling it to purchase at a reduced cost, which represents an economy \nof scale. In addition, distributing those resources among multiple customers also drives \neconomy of scale and reduces the end cost to consumers of Azure."
+        },
+        {
+          "number": 3,
+          "question_and_options": "You are an IT manager for a small company that hosts a web application for e-commerce. \nThe web application uses two web servers and a small database cluster. As demand increases \nthrough a peak season, you want to add additional web servers to handle the increased \ndemand, then remove those additional servers as demand decreases. You propose moving the \napplication to Azure. Which of the following statements is true?\nA. The web servers can be moved to Azure but the database cluster must remain on-\npremises, which represents a hybrid cloud model.\nB. \nHorizontal scaling enables you to add and remove web servers to meet demand changes.\nC. \nVertical scaling enables you to add and remove web servers to meet demand changes.\nD. Azure will automatically add the web servers for you as demand approaches a threshold \nset by the Azure App Service.",
+          "answer": "B. This scenario represents an example of horizontal scaling (scalability) because you are \nadding servers. If you were adding memory to the web server instead of adding servers, \nit would represent an example of vertical scaling. There is no restriction on moving the \ndatabase cluster to Azure along with the web server. Finally, though Azure can perform \nboth horizontal and vertical scaling, you must configure autoscaling—it does not happen \nby default.",
+          "answer_explanation": "B. This scenario represents an example of horizontal scaling (scalability) because you are \nadding servers. If you were adding memory to the web server instead of adding servers, \nit would represent an example of vertical scaling. There is no restriction on moving the \ndatabase cluster to Azure along with the web server. Finally, though Azure can perform \nboth horizontal and vertical scaling, you must configure autoscaling—it does not happen \nby default."
+        },
+        {
+          "number": 4,
+          "question_and_options": "You are an IT director for Contoso and are preparing a proposal to your CIO to move all IT \ninfrastructure to Azure. Which of the following is an advantage to moving your infrastruc-\nture to a public cloud provider?\nA.\nYou will have complete control over all infrastructure, network, applications, and all \nother resources in the cloud.\nB.\nYou can scale your infrastructure horizontally or vertically without capital expenditure \ncosts.\nC.\nYou will reduce your operational expenditures.\nD.\nThe cloud provider will manage all infrastructure for you, enabling Contoso to reduce \nIT staff.\n\n \n■Cloud Concepts",
+          "answer": "B. Moving to a public cloud enables you to easily scale your infrastructure as needed. In \na public cloud, you do not have full control over all resources since many of the resources \nare managed by the cloud provider. Your operational expenditures will increase but capital \nexpenditures will decrease. Contoso will still need to manage the infrastructure, so a \nreduction in IT staff is not guaranteed.",
+          "answer_explanation": "B. Moving to a public cloud enables you to easily scale your infrastructure as needed. In \na public cloud, you do not have full control over all resources since many of the resources \nare managed by the cloud provider. Your operational expenditures will increase but capital \nexpenditures will decrease. Contoso will still need to manage the infrastructure, so a \nreduction in IT staff is not guaranteed."
+        },
+        {
+          "number": 5,
+          "question_and_options": "Contoso is building a web application that uses a SQL database to store data. Which of the \nfollowing represents a hybrid cloud scenario? (Choose all that apply.)\nA. A virtual machine in Azure that hosts the web application and a second virtual machine \nin Azure running SQL Server\nB. \nA two-node SQL cluster in a third-party data center that hosts the data and two virtual \nmachines in Azure running the web application\nC. \nA web application hosted in Azure that stores its data in an Azure SQL database\nD. A web application hosted in Azure that sends data to and from a database hosted in \nContoso’s on-premises data center",
+          "answer": "B, D. A hybrid cloud scenario exists where services hosted in Azure interact with services \nhosted outside of Azure, whether in a third-party data center, your own data center, or a \nprivate cloud. Options A and C both represent a public cloud scenario because all services \nare hosted within Azure.",
+          "answer_explanation": "B, D. A hybrid cloud scenario exists where services hosted in Azure interact with services \nhosted outside of Azure, whether in a third-party data center, your own data center, or a \nprivate cloud. Options A and C both represent a public cloud scenario because all services \nare hosted within Azure."
+        },
+        {
+          "number": 6,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nMoving servers from an on-premises data center to virtual machines in Azure enables you to \nreduce IT staffing because Microsoft manages the infrastructure for you.\nA. enables you to pay for only the Azure resources you consume on a monthly basis.\nB. \nrepresents a platform-as-a-service (PaaS) solution.\nC. \nenables you to use additional firewall services only available in Azure to protect against \nsecurity risks.\nD. No change is needed.",
+          "answer": "A. This scenario represents a consumption-based model where you pay for only those Azure \nresources that you consume. It does not involve Azure services for developing web applica-\ntions, and therefore does not represent a PaaS solution. IT staffing is not necessarily reduced \nbecause you must still manage the virtual machines, operating systems, and applications \nrunning on them. Although you can use several firewall-related services in Azure, you could \ndeploy those same or similar solutions in your own data center.",
+          "answer_explanation": "A. This scenario represents a consumption-based model where you pay for only those Azure \nresources that you consume. It does not involve Azure services for developing web applica-\ntions, and therefore does not represent a PaaS solution. IT staffing is not necessarily reduced \nbecause you must still manage the virtual machines, operating systems, and applications \nrunning on them. Although you can use several firewall-related services in Azure, you could \ndeploy those same or similar solutions in your own data center."
+        },
+        {
+          "number": 7,
+          "question_and_options": "You are the application development director for Contoso. Your team needs to develop and \nbring a new web application online quickly with minimal expense. You consider using Azure \nWeb Apps, Azure Functions, and Azure Database for MySQL. Which Azure service category \ndoes this represent?\nA. Infrastructure-as-a-service (IaaS)\nB. \nPlatform-as-a-service (PaaS)\nC. \nSoftware-as-a-service (SaaS)\nD. Development-as-a-service (DaaS)",
+          "answer": "B. This scenario does not leverage virtual machines or infrastructure that you manage and \ntherefore does not represent IaaS. You are developing custom applications rather than using \napplications provided by Microsoft, so this scenario does not represent an SaaS solution. \nThere is no DaaS service category in Azure.",
+          "answer_explanation": "B. This scenario does not leverage virtual machines or infrastructure that you manage and \ntherefore does not represent IaaS. You are developing custom applications rather than using \napplications provided by Microsoft, so this scenario does not represent an SaaS solution. \nThere is no DaaS service category in Azure."
+        },
+        {
+          "number": 8,
+          "question_and_options": "Your company currently installs Microsoft Office on each user’s computer using perpetual \nlicenses that you have purchased from a licensing vendor. You propose to the CIO to \ntransition your users to Microsoft 365 to use Office applications hosted by Microsoft, which \nenables your organization to work with documents in a web browser and also receive Office \napplication updates automatically. This represents which service category?\nA. Infrastructure-as-a-service (IaaS)\nB. \nPlatform-as-a-service (PaaS)\nC. \nSoftware-as-a-service (SaaS)\nD. None of the above",
+          "answer": "C. With Microsoft 365, Microsoft manages the Office applications that your users consume \nthrough an assigned subscription. Microsoft manages the applications and updates. Although \nyou determine who has access through subscription assignment, Microsoft manages all other \naspects of the software. This represents SaaS. Development services are not part of the solu-\ntion, so PaaS is not correct. Virtual machines and other infrastructure are not involved, so \nIaaS is not correct.",
+          "answer_explanation": "C. With Microsoft 365, Microsoft manages the Office applications that your users consume \nthrough an assigned subscription. Microsoft manages the applications and updates. Although \nyou determine who has access through subscription assignment, Microsoft manages all other \naspects of the software. This represents SaaS. Development services are not part of the solu-\ntion, so PaaS is not correct. Virtual machines and other infrastructure are not involved, so \nIaaS is not correct."
+        },
+        {
+          "number": 9,
+          "question_and_options": "You are a server administrator for Wingtip Toys, a small company that makes and dis-\ntributes wooden toys. You manage a custom line-of-business (LOB) application for order \nmanagement and shipping. The solution is hosted on aging servers in a server room in your \n\nmanufacturing facility. You want to eventually move the application’s functions to Microsoft \nDynamics 365 and eliminate the custom application. You propose to your manager that \nyou first migrate the servers into virtual machines hosted in Azure to avoid purchasing new, \nup-to-date hardware. The current application will run on these new VMs. This proposal rep-\nresents which of the following?\nA. Software-as-a-service (SaaS)\nB. \nInfrastructure-as-a-service (IaaS)\nC. \nPlatform-as-a-service (PaaS)\nD. A hybrid cloud scenario",
+          "answer": "B. You are replacing your on-premises servers with VMs hosted in Azure, which repre-\nsents an IaaS solution. You are not using any development services to redesign the appli-\ncation (Paas) or moving to Dynamics 365 (SaaS) at this time. This scenario does not \ndescribe integration between services hosted on-premises and in Azure, so it is not a hybrid \ncloud scenario.",
+          "answer_explanation": "B. You are replacing your on-premises servers with VMs hosted in Azure, which repre-\nsents an IaaS solution. You are not using any development services to redesign the appli-\ncation (Paas) or moving to Dynamics 365 (SaaS) at this time. This scenario does not \ndescribe integration between services hosted on-premises and in Azure, so it is not a hybrid \ncloud scenario."
+        },
+        {
+          "number": 10,
+          "question_and_options": "You are the CIO for a company and are concerned about the security of your data in the \ncloud. You need to implement a cloud solution in which you gain the flexibility and agility \nof a cloud solution but maintain full control of your data and infrastructure. You propose to \nyour CEO that you contract with a third-party cloud vendor to host your IT services, and the \ninfrastructure on which your services will be hosted will not be used by any other organiza-\ntion. This represents which type of cloud model?\nA. Public cloud\nB. \nPrivate cloud\nC. \nHybrid cloud\nD. Both A and B",
+          "answer": "B. The third-party provider manages the hardware, networking, and other resources for you, \nbut you maintain control over the VMs, applications, and data. Because no other organiza-\ntions are using those resources and there is no stated integration between the cloud and your \non-premises services, this scenario represents a private cloud model.",
+          "answer_explanation": "B. The third-party provider manages the hardware, networking, and other resources for you, \nbut you maintain control over the VMs, applications, and data. Because no other organiza-\ntions are using those resources and there is no stated integration between the cloud and your \non-premises services, this scenario represents a private cloud model."
+        },
+        {
+          "number": 11,
+          "question_and_options": "You deploy a custom data analytics application to Azure that includes a single web front end \nthrough which the users access the application. At peak times during the day, the web server \nexperiences very high memory usage and temporarily enters an unresponsive state due to \na bug in your application. As a stopgap measure while your developers research the issue, \nyou add a second web server and balance the load between the two web servers. Although \nthe service sometimes slows down, the servers are able to independently recover from the \nmemory issue and the service remains available. Scaling out the web servers resulted in \nimprovements in which two areas?\nA. Disaster recovery\nB. \nAgility\nC. \nFault tolerance\nD. High availability",
+          "answer": "C, D. When the CPU becomes overtaxed, a fault occurs, making the application temporarily \nunavailable. Scaling out in this situation enabled the service to handle the fault and remain \noperational, resulting in improved fault tolerance. Scaling out also reduced the amount of \ntime it was unavailable, resulting in higher availability. The service did not crash due to a \nmajor failure or disaster and therefore require restoration, so disaster recovery is incorrect. \nAgility is the characteristic of Azure that enabled you to quickly deploy a new VM, but add-\ning the VM did not improve agility.",
+          "answer_explanation": "C, D. When the CPU becomes overtaxed, a fault occurs, making the application temporarily \nunavailable. Scaling out in this situation enabled the service to handle the fault and remain \noperational, resulting in improved fault tolerance. Scaling out also reduced the amount of \ntime it was unavailable, resulting in higher availability. The service did not crash due to a \nmajor failure or disaster and therefore require restoration, so disaster recovery is incorrect. \nAgility is the characteristic of Azure that enabled you to quickly deploy a new VM, but add-\ning the VM did not improve agility."
+        },
+        {
+          "number": 12,
+          "question_and_options": "You deploy a web app using Azure App Services and configure autoscaling for it so that \nit can request additional compute resources when the app experiences high increases in \ndemand. What is this an example of?\nA.\nElasticity\nB.\nPaaS\nC.\nFault tolerance\nD.\nHigh availability",
+          "answer": "A. The capability to automatically expand resources when needed describes elasticity. This \nscenario does not describe resources used to quickly develop and deploy applications, so \nPaaS is incorrect. Fault tolerance describes the capability of a system to endure a fault in one \nof its resources. No fault occurs in this scenario, so fault tolerance is incorrect. High avail-\nability is generally achieved by deploying multiple resources to guard against failures, so high \navailability is not a correct answer.",
+          "answer_explanation": "A. The capability to automatically expand resources when needed describes elasticity. This \nscenario does not describe resources used to quickly develop and deploy applications, so \nPaaS is incorrect. Fault tolerance describes the capability of a system to endure a fault in one \nof its resources. No fault occurs in this scenario, so fault tolerance is incorrect. High avail-\nability is generally achieved by deploying multiple resources to guard against failures, so high \navailability is not a correct answer."
+        }
+      ]
+    },
+    {
+      "id": "chapter_2_azure_core_services",
+      "question_count": 22,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAn Azure geography always corresponds to a specific country.\nA. corresponds to a single country or a market encompassing multiple countries.\nB. \ndetermines where your resources can reside.\nC. \nrepresents physical data centers.\nD. No change is needed.",
+          "answer": "A. Although an Azure geography often aligns to a specific country, a geography can also \nalign to a market, such as Europe or Asia. You can host resources in any region, so geog-\nraphies by themselves do not determine where you can place resources. Geographies also \ndo not correspond to physical data centers, but instead contain regions in which data cen-\nters reside.",
+          "answer_explanation": "A. Although an Azure geography often aligns to a specific country, a geography can also \nalign to a market, such as Europe or Asia. You can host resources in any region, so geog-\nraphies by themselves do not determine where you can place resources. Geographies also \ndo not correspond to physical data centers, but instead contain regions in which data cen-\nters reside."
+        },
+        {
+          "number": 2,
+          "question_and_options": "An Azure region ________________. (Choose all that apply.)\nA. corresponds to a specific data center.\nB. \nis paired with another region to help ensure high availability.\nC. \ncan span multiple countries.\nD. specifies the location of Azure resources.",
+          "answer": "B, D. A region encompasses multiple data centers, so option A is not correct. Regions are paired \nwithin an Azure geography to ensure high availability for resources in the primary region. \nAlthough a geography might span more than one country (Europe as an example), regions are \ndefined within a single country, so option C is incorrect. When you deploy resources, you must \nspecify the target region for the resources, so in that sense regions do specify the location of Azure \nresources.",
+          "answer_explanation": "B, D. A region encompasses multiple data centers, so option A is not correct. Regions are paired \nwithin an Azure geography to ensure high availability for resources in the primary region. \nAlthough a geography might span more than one country (Europe as an example), regions are \ndefined within a single country, so option C is incorrect. When you deploy resources, you must \nspecify the target region for the resources, so in that sense regions do specify the location of Azure \nresources."
+        },
+        {
+          "number": 3,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure China is only available to Chinese government entities.\nA. has less restrictive regulations than other Azure geographies.\nB. \nis a physically isolated instance of Azure.\nC. \nincludes Azure services that are only available in China.\nD. No change is needed.",
+          "answer": "B. Azure China is a physically isolated instance of Azure designed to meet very strict Chinese \nregulatory requirements. The services available in Azure China are available in other Azure \nregions (although not all services are available in all regions).",
+          "answer_explanation": "B. Azure China is a physically isolated instance of Azure designed to meet very strict Chinese \nregulatory requirements. The services available in Azure China are available in other Azure \nregions (although not all services are available in all regions)."
+        },
+        {
+          "number": 4,
+          "question_and_options": "An Azure region ________________.\nA. specifies the location of Azure resources.\nB. \nis always paired with another region.\nC. \ncontains one or more data centers.\nD. All of the above.",
+          "answer": "D. All the answers correctly describe Azure regions. When you create a resource, you must \nspecify the region in which it will reside. Regions are always paired with another at least \n\n \n■Answers to Review Questions\n300 miles away in the same geography for high availability and fault tolerance. An Azure \nregion contains at least one data center.",
+          "answer_explanation": "D. All the answers correctly describe Azure regions. When you create a resource, you must \nspecify the region in which it will reside. Regions are always paired with another at least \n\n \n■Answers to Review Questions\n300 miles away in the same geography for high availability and fault tolerance. An Azure \nregion contains at least one data center."
+        },
+        {
+          "number": 5,
+          "question_and_options": "You need to deploy three virtual machines that will host an application. You want the VMs \nto reside in the same region, but you want to guard against power or other potential outages. \nYou also need to ensure minimum latency between the instances. Which option describes a \nscenario that meets your requirements and is the most cost effective?\nA.\nYou deploy an additional set of three VMs to a different region and use continual rep-\nlication between the two regions, then fail over to the other region in the event of an \noutage.\nB.\nYou place the VMs in separate resource groups in the same region.\nC.\nYou use separate availability zones for the VMs.\nD.\nYou use separate availability sets for the VMs.\n\n \n■Azure Core Services",
+          "answer": "C. Availability zones are deployed across different data centers in a region, with each zone \nas a separate update and fault domain. Because they are in the same region, latency is min-\nimized. Using replication across different regions is not correct because of the additional \nlatency introduced across regions and the overhead needed to manage the replication and \nfailover process. Resource groups are not an appropriate solution because they only provide \nlogical organization to your resources; they have no effect on availability or performance. \nAvailability sets are not an appropriate solution because the availability sets exist within the \nsame data center and are subject to power or other outages at that data center.",
+          "answer_explanation": "C. Availability zones are deployed across different data centers in a region, with each zone \nas a separate update and fault domain. Because they are in the same region, latency is min-\nimized. Using replication across different regions is not correct because of the additional \nlatency introduced across regions and the overhead needed to manage the replication and \nfailover process. Resource groups are not an appropriate solution because they only provide \nlogical organization to your resources; they have no effect on availability or performance. \nAvailability sets are not an appropriate solution because the availability sets exist within the \nsame data center and are subject to power or other outages at that data center."
+        },
+        {
+          "number": 6,
+          "question_and_options": "Which of the following correctly describes an availability set? (Choose all that apply.)\nA. Protects against power, cooling, or other physical outages but requires distribution of \nadditional instances to other availability zones to enable rolling updates.\nB. \nTwo or more VM instances deployed to the same availability set results in a 99.99 per-\ncent SLA.\nC. \nDistributes VM instances across multiple fault and update domains to guard against out-\nages caused by a data center outage and to enable VMs to be updated without making \nall instances in the set unavailable.\nD. A and B.",
+          "answer": "A. Achieving a 99.99 percent SLA requires that you deploy at least two instances in different \navailability zones within the same region.",
+          "answer_explanation": "A. Achieving a 99.99 percent SLA requires that you deploy at least two instances in different \navailability zones within the same region."
+        },
+        {
+          "number": 7,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nA resource group in Azure serves as a logical container for Azure resources.\nA. provides high availability for resources within the resource group.\nB. \nprotects resources in the group from being deleted.\nC. \ncontains resources only from the region in which the resource group resides.\nD. No change is needed.",
+          "answer": "D. Resource groups are a logical container for Azure resources. They do not provide any \nhigh availability features and only serve as a container. Although you can apply locks to a \nresource group to prevent the resources in it from being deleted, locks are not created auto-\nmatically, so option B is incorrect. The resource group can contain resources from multiple \nregions, making option C incorrect as well.",
+          "answer_explanation": "D. Resource groups are a logical container for Azure resources. They do not provide any \nhigh availability features and only serve as a container. Although you can apply locks to a \nresource group to prevent the resources in it from being deleted, locks are not created auto-\nmatically, so option B is incorrect. The resource group can contain resources from multiple \nregions, making option C incorrect as well."
+        },
+        {
+          "number": 8,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nApplying a tag to a resource group propagates the tag to all resources contained in the group.\nA. prevents resources in the resource group from being deleted if the tag is a CanNotDelete \ntag.\nB. \ndetermines the actions that administrators can take on resources in the group.\nC. \napplies the tag only at the container level.\nD. No change is needed.",
+          "answer": "C. Tags provide a means to help identify a resource group and apply only to the resource \ngroup itself, not to the resources in the group, making option C the correct answer. Locks \nprevent resource deletion, not tags, so option A is not correct. Tags do not control permis-\nsions in any way, so option B is not correct.",
+          "answer_explanation": "C. Tags provide a means to help identify a resource group and apply only to the resource \ngroup itself, not to the resources in the group, making option C the correct answer. Locks \nprevent resource deletion, not tags, so option A is not correct. Tags do not control permis-\nsions in any way, so option B is not correct."
+        },
+        {
+          "number": 9,
+          "question_and_options": "You are planning a deployment of resources in Azure of various types to support a new \nproject, and you want to use templates to simplify deployment and ensure that the new \nresources are configured the same as your existing Azure resources. Which one of the follow-\ning would you use?\nA. Resource groups\nB. \nAzure Resource Manager\nC. \nAzure Resource Templates\nD. None of the above",
+          "answer": "B. You are replacing your on-premises servers with VMs hosted in Azure, which repre-\nsents an IaaS solution. You are not using any development services to redesign the appli-\ncation (Paas) or moving to Dynamics 365 (SaaS) at this time. This scenario does not \ndescribe integration between services hosted on-premises and in Azure, so it is not a hybrid \ncloud scenario.",
+          "answer_explanation": "B. You are replacing your on-premises servers with VMs hosted in Azure, which repre-\nsents an IaaS solution. You are not using any development services to redesign the appli-\ncation (Paas) or moving to Dynamics 365 (SaaS) at this time. This scenario does not \ndescribe integration between services hosted on-premises and in Azure, so it is not a hybrid \ncloud scenario."
+        },
+        {
+          "number": 10,
+          "question_and_options": "Your CIO suggests the possibility of moving some of your organization’s resources to Azure \nto cut costs and improve availability and DR options. She asks you to explain how Azure \nsubscriptions work. Choose all answers that are correct.\nA.\nAn organization can have multiple Azure subscriptions associated with either the same \nor different Azure AD tenants.\nB.\nA subscription can contain resources only from a single region.\n\nC. \nYou can use Azure multiple subscriptions to distribute costs to multiple groups within \nyour organization.\nD. A subscription can be moved to a new Azure AD tenant.",
+          "answer": "B. The third-party provider manages the hardware, networking, and other resources for you, \nbut you maintain control over the VMs, applications, and data. Because no other organiza-\ntions are using those resources and there is no stated integration between the cloud and your \non-premises services, this scenario represents a private cloud model.",
+          "answer_explanation": "B. The third-party provider manages the hardware, networking, and other resources for you, \nbut you maintain control over the VMs, applications, and data. Because no other organiza-\ntions are using those resources and there is no stated integration between the cloud and your \non-premises services, this scenario represents a private cloud model."
+        },
+        {
+          "number": 11,
+          "question_and_options": "As a consequence of organizational changes that require restructuring some of your IT infra-\nstructure, you need to move virtual machines from one region to another. Which of the fol-\nlowing methods presents the easiest solution?\nA. You back up the VM, restore it to the new region, and delete the original VM.\nB. \nYou move the VM to a resource group located in the new region.\nC. \nYou use Azure Resource Manager to move the resource to the new region.\nD. You configure site recovery between the regions, migrate the VM to the new region using \nsite recovery, and fail over to the new VM.",
+          "answer": "C, D. When the CPU becomes overtaxed, a fault occurs, making the application temporarily \nunavailable. Scaling out in this situation enabled the service to handle the fault and remain \noperational, resulting in improved fault tolerance. Scaling out also reduced the amount of \ntime it was unavailable, resulting in higher availability. The service did not crash due to a \nmajor failure or disaster and therefore require restoration, so disaster recovery is incorrect. \nAgility is the characteristic of Azure that enabled you to quickly deploy a new VM, but add-\ning the VM did not improve agility.",
+          "answer_explanation": "C, D. When the CPU becomes overtaxed, a fault occurs, making the application temporarily \nunavailable. Scaling out in this situation enabled the service to handle the fault and remain \noperational, resulting in improved fault tolerance. Scaling out also reduced the amount of \ntime it was unavailable, resulting in higher availability. The service did not crash due to a \nmajor failure or disaster and therefore require restoration, so disaster recovery is incorrect. \nAgility is the characteristic of Azure that enabled you to quickly deploy a new VM, but add-\ning the VM did not improve agility."
+        },
+        {
+          "number": 12,
+          "question_and_options": "Which of the following is not a feature of Azure App Service?\nA. Support for multiple development languages, including Java and Python\nB. \nSupport for Windows and Linux\nC. \nFirewall protection for apps you develop with Azure App Service\nD. Support for containers",
+          "answer": "A. The capability to automatically expand resources when needed describes elasticity. This \nscenario does not describe resources used to quickly develop and deploy applications, so \nPaaS is incorrect. Fault tolerance describes the capability of a system to endure a fault in one \nof its resources. No fault occurs in this scenario, so fault tolerance is incorrect. High avail-\nability is generally achieved by deploying multiple resources to guard against failures, so high \navailability is not a correct answer.\nChapter 2: Azure Core Services",
+          "answer_explanation": "A. The capability to automatically expand resources when needed describes elasticity. This \nscenario does not describe resources used to quickly develop and deploy applications, so \nPaaS is incorrect. Fault tolerance describes the capability of a system to endure a fault in one \nof its resources. No fault occurs in this scenario, so fault tolerance is incorrect. High avail-\nability is generally achieved by deploying multiple resources to guard against failures, so high \navailability is not a correct answer.\nChapter 2: Azure Core Services"
+        },
+        {
+          "number": 13,
+          "question_and_options": "You decide to use Azure Container Instances (ACI) to deploy containers as part of a project \nto deploy a new solution. You need to describe the benefits of using containers to your \nproject team. Which of the following does not describe containers in Azure?\nA. Containers can run on either Windows or Linux.\nB. \nContainers represent a single application and the application’s dependencies.\nC. \nAll containers in a container group share the same operating system.\nD. Containers require setup and configuration of a virtual machine hosting them.",
+          "answer": "D. Containers support Windows and Linux. They contain the dependencies needed to run \nthe application. They also all share the same operating system. The only option that is not \ncorrect is D. The primary benefit to using containers is the ease with which you can deploy \nthem without setup and configuration of a VM to host the app and dependencies.",
+          "answer_explanation": "D. Containers support Windows and Linux. They contain the dependencies needed to run \nthe application. They also all share the same operating system. The only option that is not \ncorrect is D. The primary benefit to using containers is the ease with which you can deploy \nthem without setup and configuration of a VM to host the app and dependencies."
+        },
+        {
+          "number": 14,
+          "question_and_options": "You need to deploy a stateful application using Azure Container Instances. Which of the fol-\nlowing provides storage, enabling the application to store and retrieve persistent state?\nA. Azure Disk\nB. \nAzure Files\nC. \nAzure Blob\nD. Azure Archive",
+          "answer": "B. The only storage option that you can use within a container to persist data is Azure Files.",
+          "answer_explanation": "B. The only storage option that you can use within a container to persist data is Azure Files."
+        },
+        {
+          "number": 15,
+          "question_and_options": "Your organization is planning to deploy a containerized solution in Azure and needs a con-\ntainer orchestration service that enables you to coordinate application upgrades and easily \nscale out containers. Which solution meets these goals?\nA.\nDeploy the solution using Azure Container Instances (ACI).\nB.\nDeploy containers using scale sets.\nC.\nDeploy the containers using the Docker Management Portal (DMP).\nD.\nDeploy the solution using Azure Kubernetes Service (AKS).\n\n \n■Azure Core Services",
+          "answer": "D. Azure Kubernetes Service (AKS) is the container orchestration service offered in Azure \nand meets the requirements of simplified management and scalability. ACI does not provide \norchestration services and is only appropriate for individual container deployments, making \noption A incorrect. Scale sets do not provide container management capabilities, so option B \nis incorrect. Option C is incorrect because there is no Docker Management Portal in Azure.",
+          "answer_explanation": "D. Azure Kubernetes Service (AKS) is the container orchestration service offered in Azure \nand meets the requirements of simplified management and scalability. ACI does not provide \norchestration services and is only appropriate for individual container deployments, making \noption A incorrect. Scale sets do not provide container management capabilities, so option B \nis incorrect. Option C is incorrect because there is no Docker Management Portal in Azure."
+        },
+        {
+          "number": 16,
+          "question_and_options": "You want to deploy a solution that uses SQL to store and retrieve data on sales managers, \nsales quotas, and seller attainment. You want to minimize cost and configuration effort. \nWhich solution achieves these goals?\nA. Use Cosmos DB to host the data.\nB. \nUse Azure SQL Database to host the data.\nC. \nUse a VM with SQL Server installed to host the data.\nD. None of the above.",
+          "answer": "B. Azure SQL Database enables you to host SQL databases in Azure without standing up \nand managing a virtual machine or the SQL Server application. Cosmos DB is a NoSQL solu-\ntion designed to store and manage nonstructured data, making option A incorrect. Although \nyou could deploy a VM with SQL Server and host the data, doing so increases consumption \ncost and management overhead, making option C incorrect.",
+          "answer_explanation": "B. Azure SQL Database enables you to host SQL databases in Azure without standing up \nand managing a virtual machine or the SQL Server application. Cosmos DB is a NoSQL solu-\ntion designed to store and manage nonstructured data, making option A incorrect. Although \nyou could deploy a VM with SQL Server and host the data, doing so increases consumption \ncost and management overhead, making option C incorrect."
+        },
+        {
+          "number": 17,
+          "question_and_options": "Which of the following Azure services is designed for storing nonstructured data and includes \nsupport for NoSQL?\nA. Azure SQL Database\nB. \nAzure HDInsight\nC. \nAzure Database for MySQL\nD. Azure Cosmos DB",
+          "answer": "D. Azure Cosmos DB supports NoSQL and is designed to store and retrieve data in non-\nrelational databases, making option D the correct answer. Azure SQL Database is designed \nspecifically to store relational SQL databases, making option A incorrect. HDInsight is \nMicrosoft’s cloud distribution of Hadoop that is designed for processing massive amounts \nof data, making option B incorrect. Azure Database for MySQL supports MySQL relational \ndatabases, so option D is incorrect.",
+          "answer_explanation": "D. Azure Cosmos DB supports NoSQL and is designed to store and retrieve data in non-\nrelational databases, making option D the correct answer. Azure SQL Database is designed \nspecifically to store relational SQL databases, making option A incorrect. HDInsight is \nMicrosoft’s cloud distribution of Hadoop that is designed for processing massive amounts \nof data, making option B incorrect. Azure Database for MySQL supports MySQL relational \ndatabases, so option D is incorrect."
+        },
+        {
+          "number": 18,
+          "question_and_options": "Your organization needs to provide a consistent user experience for running Windows  \napplications across your enterprise, including for macOS, iOS, and Android devices. Which of \nthe following Azure resources provide that consistent experience?\nA. Azure Client Emulator\nB. \nWindows 10 Enterprise\nC. \nWindows Virtual Desktop\nD. Microsoft 365",
+          "answer": "C. Windows Virtual Desktop provides a virtualized Windows client experience through a \nclient installed on the user’s device or through an HTLM 5–compliant web browser, which \nprovides a consistent experience across the enterprise. There is no Azure Client Emulator ser-\nvice, and Windows 10 Enterprise and Microsoft 365 do not provide client OS support for \nmacOS, iOS, or Android devices.",
+          "answer_explanation": "C. Windows Virtual Desktop provides a virtualized Windows client experience through a \nclient installed on the user’s device or through an HTLM 5–compliant web browser, which \nprovides a consistent experience across the enterprise. There is no Azure Client Emulator ser-\nvice, and Windows 10 Enterprise and Microsoft 365 do not provide client OS support for \nmacOS, iOS, or Android devices."
+        },
+        {
+          "number": 19,
+          "question_and_options": "You have been tasked by your CIO with moving a large amount data from on-premises to \nAzure. The data needs to be maintained for compliance reasons but will not be accessed \nunless required by an audit or litigation. Which type of storage is the most cost effective?\nA. Cool access storage\nB. \nFile storage\nC. \nDisk storage\nD. Archive access storage",
+          "answer": "D. The archive access storage tier is intended for scenarios in which you must maintain data \nthat is seldom, if ever, accessed. It provides the most cost-effective storage solution in this \nscenario. File storage and disk storage are both active storage types that are not intended for \narchival purposes. Cool access storage is intended for scenarios where you need to access \ndata, but not frequently and only for a relatively short period of time.",
+          "answer_explanation": "D. The archive access storage tier is intended for scenarios in which you must maintain data \nthat is seldom, if ever, accessed. It provides the most cost-effective storage solution in this \nscenario. File storage and disk storage are both active storage types that are not intended for \narchival purposes. Cool access storage is intended for scenarios where you need to access \ndata, but not frequently and only for a relatively short period of time."
+        },
+        {
+          "number": 20,
+          "question_and_options": "You have set up a new Azure subscription and need to deploy storage to support a virtual \nmachine. What is the first thing you must do to add storage?\nA.\nEnable the subscription to support storage.\nB.\nCreate a storage account.\nC.\nChoose the appropriate blob storage tier.\nD.\nNothing, because the VM includes blob hot access tier storage by default.",
+          "answer": "B. The first step in adding storage in Azure is to create a storage account, making option B \nthe correct answer. You do not need to enable storage at the subscription level, and you must \ncreate a storage account before choosing a storage type or access tier, making options A and \nC incorrect. VMs do not include hot access tier blob storage by default, making option D \nincorrect.\n\n \n■Answers to Review Questions",
+          "answer_explanation": "B. The first step in adding storage in Azure is to create a storage account, making option B \nthe correct answer. You do not need to enable storage at the subscription level, and you must \ncreate a storage account before choosing a storage type or access tier, making options A and \nC incorrect. VMs do not include hot access tier blob storage by default, making option D \nincorrect.\n\n \n■Answers to Review Questions"
+        },
+        {
+          "number": 21,
+          "question_and_options": "You are considering migrating several SQL instances from on-premises to Azure. Which \nof the following PaaS solutions provides the best support for SQL and the easiest \nmigration path?\nA. Azure Database for MySQL\nB. \nAzure SQL Database\nC. \nAzure SQL Database Premium\nD. SQL Managed Instance",
+          "answer": "D. SQL Managed Instance provides many of the same features as Azure SQL Database but \nwith enhanced features, including easier migration capabilities between your on-premises \nSQL instances and Azure. Azure Database for MySQL is an open source alternative to SQL \nand does not provide the needed migration capabilities in this scenario. There is no Azure \nSQL Database Premium offer from Microsoft, making option C incorrect.",
+          "answer_explanation": "D. SQL Managed Instance provides many of the same features as Azure SQL Database but \nwith enhanced features, including easier migration capabilities between your on-premises \nSQL instances and Azure. Azure Database for MySQL is an open source alternative to SQL \nand does not provide the needed migration capabilities in this scenario. There is no Azure \nSQL Database Premium offer from Microsoft, making option C incorrect."
+        },
+        {
+          "number": 22,
+          "question_and_options": "You are a project manager for a project to move several key web applications from on-\npremises to Azure. The development team has stated that support for LAMP is critical to sim-\nplifying the development effort. Which of the following is the most likely choice to support \nLAMP development?\nA.\nAzure Database for MySQL\nB.\nAzure SQL Database\nC.\nAzure Cosmos DB\nD.\nAzure Database for PostgreSQL",
+          "answer": "A. MySQL is a component of LAMP (it is the “M” in LAMP) and therefore Azure Database \nfor MySQL is the appropriate solution to consider for LAMP-based development.",
+          "answer_explanation": "A. MySQL is a component of LAMP (it is the “M” in LAMP) and therefore Azure Database \nfor MySQL is the appropriate solution to consider for LAMP-based development."
+        }
+      ]
+    },
+    {
+      "id": "chapter_3_azure_core_networking_services",
+      "question_count": 7,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "You are deploying a web application in Azure and need to distribute traffic based on a single \npublic IP address to the virtual machines that are hosting the database. Which of the follow-\ning best satisfies that requirement?\nA. Azure Application Gateway\nB. \nAzure Traffic Manager\nC. \nAzure Load Balancer\nD. Azure Front Door",
+          "answer": "C. Azure Load Balancer distributes traffic based on IP address and is the appropriate solu-\ntion for this scenario. Azure Application Gateway and Azure Traffic Manager do not route \nbased on IP address, making both of these options incorrect. Azure Front Door is designed \nfor global routing scenarios.",
+          "answer_explanation": "C. Azure Load Balancer distributes traffic based on IP address and is the appropriate solu-\ntion for this scenario. Azure Application Gateway and Azure Traffic Manager do not route \nbased on IP address, making both of these options incorrect. Azure Front Door is designed \nfor global routing scenarios."
+        },
+        {
+          "number": 2,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nYour organization hosts its public website in Azure. You want to use URL path-based rout-\ning to accommodate processing for videos and images by sending traffic to server pools \noptimized for each content type. Your organization operates globally, and you also want \nto ensure the best possible performance regardless of where your consumers are in the \nworld. You should use Application Gateway as a load-balancing solution to meet these \nrequirements.\nA. Traffic Manager\nB. \nFront Door\nC. \nAzure Load Balancer\nD. No change is needed.",
+          "answer": "B. Although Azure Application Gateway supports URL path–based routing to accommodate \nyour need to optimize processing of images and video, it does not provide the global routing \ncapabilities offered by Front Door. Traffic Manager is intended for non-HTTP(S) traffic and \nuses DNS-based routing, making it an incorrect choice where URL-based routing is required.",
+          "answer_explanation": "B. Although Azure Application Gateway supports URL path–based routing to accommodate \nyour need to optimize processing of images and video, it does not provide the global routing \ncapabilities offered by Front Door. Traffic Manager is intended for non-HTTP(S) traffic and \nuses DNS-based routing, making it an incorrect choice where URL-based routing is required."
+        },
+        {
+          "number": 3,
+          "question_and_options": "You are developing a solution in Azure that requires sending HTTPS traffic within a region \nto a specific endpoint based on the requested URL. Which of the following is the appropriate \nload-balancing service?\nA. Azure Application Gateway\nB. \nAzure Traffic Manager\nC. \nAzure Load Balancer\nD. Azure Front Door",
+          "answer": "A. Azure Application Gateway supports URL path–based routing and is intended for regional \nload balancing, making option A correct. Neither Traffic Manager nor Azure Load Balancer \nsupports URL path–based routing, making options B and C incorrect. Although Front Door \nsupports URL path–based routing, it is intended for global deployments, so option D is \nincorrect.",
+          "answer_explanation": "A. Azure Application Gateway supports URL path–based routing and is intended for regional \nload balancing, making option A correct. Neither Traffic Manager nor Azure Load Balancer \nsupports URL path–based routing, making options B and C incorrect. Although Front Door \nsupports URL path–based routing, it is intended for global deployments, so option D is \nincorrect."
+        },
+        {
+          "number": 4,
+          "question_and_options": "Your organization is building a hybrid Azure environment where several on-premises  \nservices need to interact with resources in Azure, and vice versa, over a secure connection. \nYou require high-speed connectivity through an encrypted tunnel across the Internet. The \nconnection will be provided and managed by a third party. Which Azure service does this \nscenario describe?\nA.\nAzure Client VPN\nB.\nAzure VPN Gateway\nC.\nAzure ExpressRoute Direct\nD.\nAzure ExpressRoute",
+          "answer": "D. Azure ExpressRoute provides a secure VPN tunnel across the Internet between your on-\npremises network and Azure, and is managed by a third-party communications provider, \nmaking option D the correct answer. ExpressRoute Direct connects directly to the Microsoft \nnetwork, bypassing the Internet, making option C incorrect. Azure Client VPN is not an \nAzure service. Azure VPN Gateway makes it possible to create a VPN connection from your \non-premises network to Azure but offers lower speeds than ExpressRoute and is managed by \nyour organization, not a third-party provider.",
+          "answer_explanation": "D. Azure ExpressRoute provides a secure VPN tunnel across the Internet between your on-\npremises network and Azure, and is managed by a third-party communications provider, \nmaking option D the correct answer. ExpressRoute Direct connects directly to the Microsoft \nnetwork, bypassing the Internet, making option C incorrect. Azure Client VPN is not an \nAzure service. Azure VPN Gateway makes it possible to create a VPN connection from your \non-premises network to Azure but offers lower speeds than ExpressRoute and is managed by \nyour organization, not a third-party provider."
+        },
+        {
+          "number": 5,
+          "question_and_options": "Your organization maintains two on-premises data centers named Alpha and Bravo, and \nyou are considering moving some or all the resources hosted in those data centers to Azure. \nAs part of an Azure proof of concept, you need to establish a connection to Azure from a \nserver named vmtest01 in data center Alpha. Which VPN solution meets the requirement for \nminimum setup and cost?\nA. An ExpressRoute connection between Alpha and Azure\nB. \nA multi-site VPN connection between Alpha, Bravo, and Azure\nC. \nA site-to-site VPN from vmtest01 to Azure\nD. A point-to-site VPN from vmtest01 to Azure",
+          "answer": "D. Your requirement is to provide a connection from only vmtest01 to Azure, and creating \na point-to-site VPN connection involves the least effort and cost. ExpressRoute would con-\nnect your entire Alpha data center to Azure, not just vmtest01. A multi-site VPN connection \nwould connect both data centers to Azure, not just vmtest01. Option C is incorrect because a \nsite-to-site VPN connects an entire site to Azure, not just a single server (point).",
+          "answer_explanation": "D. Your requirement is to provide a connection from only vmtest01 to Azure, and creating \na point-to-site VPN connection involves the least effort and cost. ExpressRoute would con-\nnect your entire Alpha data center to Azure, not just vmtest01. A multi-site VPN connection \nwould connect both data centers to Azure, not just vmtest01. Option C is incorrect because a \nsite-to-site VPN connects an entire site to Azure, not just a single server (point)."
+        },
+        {
+          "number": 6,
+          "question_and_options": "You are an IT infrastructure manager for a large bank. You propose moving some of your IT \ninfrastructure and services to Azure. You need to provide a secure, high-bandwidth connec-\ntion from your primary data center to Azure, but the connection cannot traverse the Internet. \nWhich of the following meets these requirements?\nA. Azure VPN Gateway\nB. \nAzure ExpressRoute Direct\nC. \nAzure ExpressRoute\nD. None of the above",
+          "answer": "B. Azure ExpressRoute Direct provides site-to-site connectivity from your data center to \nAzure and connects directly to the Microsoft network, bypassing the Internet. Azure VPN \nGateway and Azure ExpressRoute both connect through the Internet to Azure.",
+          "answer_explanation": "B. Azure ExpressRoute Direct provides site-to-site connectivity from your data center to \nAzure and connects directly to the Microsoft network, bypassing the Internet. Azure VPN \nGateway and Azure ExpressRoute both connect through the Internet to Azure."
+        },
+        {
+          "number": 7,
+          "question_and_options": "Your global organization hosts an intranet that serves training content in the form of videos \nand large drawing files used by service personnel. These resources need to be available to \nusers in the United States, Canada, the UK, and France with minimal network latency. Which \nof the following options meets these requirements with minimal cost?\nA.\nUse Azure Content Delivery Network to host the files geographically close to your users.\nB.\nUse VNet-to-VNet connections between regions to enable the documents and videos to \nflow rapidly between regions.\nC.\nUse ExpressRoute to provide higher bandwidth for user connections.\nD.\nNone of the above.",
+          "answer": "A. Azure Content Delivery Network provides caching and other features for hosting content \nin a geographically dispersed way, placing content near the users who consume it. Although \noptions B and C might be part of your Azure solution, they do not directly affect your ability \nto place content closer to your users.",
+          "answer_explanation": "A. Azure Content Delivery Network provides caching and other features for hosting content \nin a geographically dispersed way, placing content near the users who consume it. Although \noptions B and C might be part of your Azure solution, they do not directly affect your ability \nto place content closer to your users."
+        }
+      ]
+    },
+    {
+      "id": "chapter_4_security_compliance_privacy_trust",
+      "question_count": 42,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "You are setting up resources in Azure and need to filter traffic based on source IP address and \nport, destination IP address and port, and protocol between your on-premises network and \nAzure. Which of the following meets these minimum requirements?\nA. ExpressRoute\nB. \nAzure Firewall\nC. \nApplication security groups\nD. User-defined routes",
+          "answer": "B. Azure Firewall provides traffic filtering based on the specified criteria and can filter traffic \nbetween Azure subnets and between Azure and your on-premises network. ExpressRoute is \na VPN solution that does not provide traffic filtering. Application security groups enable you \nto group applications and apply network security as a group using network security groups. \nThey do not provide the required filtering. User-defined routes enable you to create custom \nroutes but not to filter traffic.",
+          "answer_explanation": "B. Azure Firewall provides traffic filtering based on the specified criteria and can filter traffic \nbetween Azure subnets and between Azure and your on-premises network. ExpressRoute is \na VPN solution that does not provide traffic filtering. Application security groups enable you \nto group applications and apply network security as a group using network security groups. \nThey do not provide the required filtering. User-defined routes enable you to create custom \nroutes but not to filter traffic."
+        },
+        {
+          "number": 2,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nYou are evaluating moving a web application that you host on-premises to Azure. The solu-\ntion comprises three VMs—a web front end, an application server, and a database server. You \nneed to ensure that your administrators can access all of the VMs for remote management on \nport 3389, but only the web front end should be accessible over port 80. You decide to deploy \nan application security group to protect the web server and enable access to the other servers.\nA. deploy Web Application Firewall to filter and route traffic to the web server and deploy \nnetwork security groups to enable RDP to all three VMs.\nB. \ndeploy Web Application Firewall to filter the traffic and meet both requirements.\nC. \ndeploy a network security group to filter traffic and meet both requirements.\nD. No change is needed.",
+          "answer": "C. Web Application Firewall protects web applications from common attacks and does not \nprovide traffic filtering, making options A and B incorrect. A network security group filters \ntraffic between subnets based on the specified criteria, making option C the correct answer.",
+          "answer_explanation": "C. Web Application Firewall protects web applications from common attacks and does not \nprovide traffic filtering, making options A and B incorrect. A network security group filters \ntraffic between subnets based on the specified criteria, making option C the correct answer."
+        },
+        {
+          "number": 3,
+          "question_and_options": "You have deployed a VM to a subnet in Azure and need to ensure that only your and one \nother individual can connect to the VM using RDP on port 3389 to manage it. No other \naccess from outside the subnet should be allowed at this time on any other ports. Which of \nthe following should you use? (Choose all that apply.)\nA. Use a network security group to filter traffic and only allow port 3389 to the VM.\nB. \nApply an Azure policy to the subnet to limit access on port 3389 to only your and your \npeer’s accounts.\nC. \nCreate a policy initiative that restricts access to the server based on your and your peer’s \nroles, and to port 3389 for the IP address of the VM.\nD. Use role-based access control (RBAC) to ensure that only you and your peer can access \nthe server.",
+          "answer": "A, D. A network security group is the appropriate means for filtering traffic into the target \nsubnet based on destination port but cannot restrict access to the VM, making option A part \nof the answer. Policies do not enable you to define permissions, and initiatives are collections \nof policies, so by themselves neither policies nor initiatives meet the dual requirement of IP \nfiltering and role-based access. RBAC can be used to restrict access to the VM to specific \nusers, making option D the second part of the correct answer.",
+          "answer_explanation": "A, D. A network security group is the appropriate means for filtering traffic into the target \nsubnet based on destination port but cannot restrict access to the VM, making option A part \nof the answer. Policies do not enable you to define permissions, and initiatives are collections \nof policies, so by themselves neither policies nor initiatives meet the dual requirement of IP \nfiltering and role-based access. RBAC can be used to restrict access to the VM to specific \nusers, making option D the second part of the correct answer."
+        },
+        {
+          "number": 4,
+          "question_and_options": "You are considering deploying a key web application to Azure. You decide to deploy Web \nApplication Firewall with Application Gateway as part of the project. Which of the following \ncorrectly describes the function of Web Application Firewall in this scenario?\nA.\nWhen properly configured, it ensures that traffic reaches the application only on port 80 \nfor HTTP traffic.\nB.\nIt protects the web application from common web-based attacks.\n\nC. \nIt ensures that users can reach the web service on port 80 and administrators can RDP \nto the VMs on port 3389.\nD. None of the above.",
+          "answer": "B. Web Application Firewall does not provide traffic filtering, making options A and C incor-\nrect. Web Application Firewall protects web applications against common web-based attacks.",
+          "answer_explanation": "B. Web Application Firewall does not provide traffic filtering, making options A and C incor-\nrect. Web Application Firewall protects web applications against common web-based attacks."
+        },
+        {
+          "number": 5,
+          "question_and_options": "Your organization hosts a VM that performs a security-related function. For both security \nand auditing purposes, you need to ensure that all traffic reaches the VM from a single IP \naddress in another subnet, regardless of source. Which of the following solutions meets this \nrequirement?\nA. Create a network security group (NSG) that directs all traffic for the VM to the \ndesignated IP address and then apply the NSG to all subnets as required.\nB. \nCreate an application security group (ASG) that directs all traffic for the VM to the \ndesignated IP address and apply the ASG to all subnets in the virtual network.\nC. \nCreate a user-defined route as a custom routing table and apply the table to all subnets \nin the virtual network.\nD. Use rules in Azure Firewall to route traffic to the target VM based on source and target \nIP addresses.",
+          "answer": "C. Network security groups, application security groups, and Azure Firewall do not give you \nthe capability to create custom routes, making option C the only correct answer.",
+          "answer_explanation": "C. Network security groups, application security groups, and Azure Firewall do not give you \nthe capability to create custom routes, making option C the only correct answer."
+        },
+        {
+          "number": 6,
+          "question_and_options": "Which of the following describes Azure DDoS Protection Standard? Choose all that apply.\nA. It protects against volumetric, protocol, and resource layer attacks.\nB. \nIt alerts you when an attack is happening.\nC. \nDDoS Standard protects all resources on a virtual network as soon as the service is \nenabled.\nD. It provides mitigation reports.",
+          "answer": "A, B, C, and D. DDoS Protect Standard provides all the features described. DDoS Protection \nBasic provides only active traffic monitoring, detection, and mitigation.",
+          "answer_explanation": "A, B, C, and D. DDoS Protect Standard provides all the features described. DDoS Protection \nBasic provides only active traffic monitoring, detection, and mitigation."
+        },
+        {
+          "number": 7,
+          "question_and_options": "Your organization has made the decision to move workloads into Azure. As the Directory \nServices administrator, you need to explain authentication and authorization in Azure to the \nprogram managers leading the project. Which of the following are correct statements?\nA. Identifying a user by a username and password is a form of authorization.\nB. \nValidating that a user account has the necessary permissions to access a resource is an \nexample of authorization.\nC. \nAuthentication identifies a user but does not provide access to resources.\nD. Providing a password to access a shared resource is a form of authorization.",
+          "answer": "B and C. Identifying a user by username and password is a form of authentication, not \nauthorization. Providing a password identifies a user; it does not authorize the user to access \nresources.",
+          "answer_explanation": "B and C. Identifying a user by username and password is a form of authentication, not \nauthorization. Providing a password identifies a user; it does not authorize the user to access \nresources."
+        },
+        {
+          "number": 8,
+          "question_and_options": "Which of the following is the least expensive option that enables Azure AD users to change \ntheir passwords online?\nA.\nAzure Active Directory Base\nB.\nAzure Active Directory Free\nC.\nAzure Active Directory Premium P1\nD.\nAzure Active Directory Premium P3",
+          "answer": "B. Azure Active Directory Free includes password self-serve, enabling users to change their \npasswords online. Azure AD Premium P1 and P2 also offer this capability but are not free. \nThere is no offering called Azure Active Directory Base.",
+          "answer_explanation": "B. Azure Active Directory Free includes password self-serve, enabling users to change their \npasswords online. Azure AD Premium P1 and P2 also offer this capability but are not free. \nThere is no offering called Azure Active Directory Base."
+        },
+        {
+          "number": 9,
+          "question_and_options": "Which of the following correctly describe Azure Active Directory? (Choose all that apply.)\nA.\nAzure AD is a key component of role-based access control (RBAC) in Azure.\nB.\nYou must register an Azure web application with Azure AD to enable that application to \nauthenticate and authorize users.\n\n \n■Security, Compliance, Privacy, and Trust\nC. \nAll editions of Azure AD enable management of users and groups.\nD. You must use on-premises Active Directory along with Azure AD to enable on-premises \nusers to authenticate in Azure.",
+          "answer": "A, B, C. Azure AD provides the authentication mechanism for RBAC in Azure. Before an \nAzure web application can use Azure AD to authenticate and authorize users, you must reg-\nister the web app with Azure AD. User and group management is available in all editions of \nChapter 4: Security, Compliance, Privacy, and Trust \n\n■Answers to Review Questions\nAzure AD. On-premises users with accounts in Azure AD can authenticate using only Azure \nAD, making option D incorrect.",
+          "answer_explanation": "A, B, C. Azure AD provides the authentication mechanism for RBAC in Azure. Before an \nAzure web application can use Azure AD to authenticate and authorize users, you must reg-\nister the web app with Azure AD. User and group management is available in all editions of \nChapter 4: Security, Compliance, Privacy, and Trust \n\n■Answers to Review Questions\nAzure AD. On-premises users with accounts in Azure AD can authenticate using only Azure \nAD, making option D incorrect."
+        },
+        {
+          "number": 10,
+          "question_and_options": "Which of the following capabilities require an Azure AD Premium edition? (Choose all \nthat apply.)\nA. Self-service password management for on-premises users, enabling them to change their \nown passwords\nB. \nEnabling users to access on-premises resources such as an on-premises website using an \nAzure AD account\nC. \nManaging Azure AD groups\nD. Using RBAC to control access to resources with policies and initiatives",
+          "answer": "A, B. The capability to manage groups is included in Azure AD Free. Using RBAC with pol-\nicies and initiatives is not restricted to a specific edition of Azure AD.",
+          "answer_explanation": "A, B. The capability to manage groups is included in Azure AD Free. Using RBAC with pol-\nicies and initiatives is not restricted to a specific edition of Azure AD."
+        },
+        {
+          "number": 11,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nEntering your PIN after you insert a debit card into an ATM is an example of multifactor \nauthentication (MFA).\nA. Providing a username and password to log into Windows.\nB. \nEntering a PIN code on a keypad to enter a building.\nC. \nProviding an email address and password to log into a website.\nD. No change is needed.",
+          "answer": "D. Multifactor authentication requires more than one piece of data to authenticate a user. \nThe debit card and the PIN provide two data points for authentication, making option D \ncorrect. A PIN code by itself on a device that you do not possess (such as a door security \npanel) represents a single point of identification, making option B incorrect. The password \nassociated with an email address represents only one form of authentication.",
+          "answer_explanation": "D. Multifactor authentication requires more than one piece of data to authenticate a user. \nThe debit card and the PIN provide two data points for authentication, making option D \ncorrect. A PIN code by itself on a device that you do not possess (such as a door security \npanel) represents a single point of identification, making option B incorrect. The password \nassociated with an email address represents only one form of authentication."
+        },
+        {
+          "number": 12,
+          "question_and_options": "Which of the following are correct statements regarding Azure Security Center? (Choose all \nthat apply.)\nA. Security Center integrates natively with Microsoft Defender to provide risk detection \nand assessment.\nB. \nSecurity Center supports Linux operating systems.\nC. \nYou must add resources to Security Center to begin monitoring those resources.\nD. Security Center provides monitoring and threat protection for VMs in Azure as well as \non-premises.",
+          "answer": "A, B, D. Security Center automatically begins monitoring resources when you create them, so \noption C is incorrect.",
+          "answer_explanation": "A, B, D. Security Center automatically begins monitoring resources when you create them, so \noption C is incorrect."
+        },
+        {
+          "number": 13,
+          "question_and_options": "You are tasked with explaining some of the security options in Azure to your CIO, who has \nasked about how Azure will improve security over your on-premises environment. Which \nAzure service provides security recommendations for securing your Azure resources?\nA.\nAdvanced Threat Protection (ATP)\nB.\nAzure DDoS Protection\nC.\nSecurity Center\nD.\nAzure Service Health",
+          "answer": "C. Security Center provides monitoring and threat protection and also offers recommenda-\ntions for remediating threats. ATP, Azure DDoS, and Azure Service Health do not offer rec-\nommendations for remediation.",
+          "answer_explanation": "C. Security Center provides monitoring and threat protection and also offers recommenda-\ntions for remediating threats. ATP, Azure DDoS, and Azure Service Health do not offer rec-\nommendations for remediation."
+        },
+        {
+          "number": 14,
+          "question_and_options": "You are moving a SQL Server Analysis Services (SSAS) solution from on-premises to Azure to \nsupport custom reporting through Power BI. You want to enable access only when a report \ncreator needs to query for data. Which Azure service supports just-in-time (JIT) access con-\ntrol, enabling users to gain access to the server for only a specified period of time?\nA. Advanced Threat Protection\nB. \nSecurity Center\nC. \nAzure Key Vault\nD. Azure Service Health",
+          "answer": "B. Security Center supports JIT access control for ports, enabling you to open ports only \nwhen needed, making option B correct. The other Azure services listed do not provide this \ncapability.",
+          "answer_explanation": "B. Security Center supports JIT access control for ports, enabling you to open ports only \nwhen needed, making option B correct. The other Azure services listed do not provide this \ncapability."
+        },
+        {
+          "number": 15,
+          "question_and_options": "Which of the following accurately describe Azure Key Vault? (Choose all that apply.)\nA. Provides the capability to create, manage, and store certificates and other secrets.\nB. \nProvides highly secure storage for certificates and other keys but not the capability to \ncreate them.\nC. \nWorks in conjunction with Azure Threat Protection (ATP) to secure and contain  \ncertificate-based threats.\nD. Enables application developers to avoid storing credentials in an application.",
+          "answer": "A, D. Azure Key Vault enables you to create, store, and manage keys and other secrets, \nincluding credentials used by applications to authenticate, making options A and D correct. \nKey Vault can create as well as store and manage secrets, making option B incorrect. Key \nVault does not work in conjunction with ATP to secure against certificate-based threats.",
+          "answer_explanation": "A, D. Azure Key Vault enables you to create, store, and manage keys and other secrets, \nincluding credentials used by applications to authenticate, making options A and D correct. \nKey Vault can create as well as store and manage secrets, making option B incorrect. Key \nVault does not work in conjunction with ATP to secure against certificate-based threats."
+        },
+        {
+          "number": 16,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Information Protection (AIP) enables organizations to protect emails and documents \nusing encryption, identity, and authorization policies.\nA. encrypts data stored in Azure Premium storage.\nB. \nprovides secure storage for certificates, cryptographic keys, and other secrets.\nC. \nis a mechanism in Azure Active Directory for encrypting and securing administrator cre-\ndentials.\nD. No change is needed.",
+          "answer": "D. Azure Information Protection provides a means to classify documents and emails using \nlabels, and to optionally protect those items with encryption, identity, and authorization, \nmaking option A correct. AIP does not provide secure storage for secrets; Key Vault serves \nthat function. AIP is not a mechanism in Azure AD.",
+          "answer_explanation": "D. Azure Information Protection provides a means to classify documents and emails using \nlabels, and to optionally protect those items with encryption, identity, and authorization, \nmaking option A correct. AIP does not provide secure storage for secrets; Key Vault serves \nthat function. AIP is not a mechanism in Azure AD."
+        },
+        {
+          "number": 17,
+          "question_and_options": "Which of the following Azure services can identify suspicious activities such as pass-the-hash  \nattacks?\nA.\nSecurity Center\nB.\nAzure Information Protection (AIP)\nC.\nAzure Advanced Threat Protection (ATP)\nD.\nMicrosoft Defender",
+          "answer": "C. Azure Threat Protection (ATP) can detect and identify a variety of threats and provides \nreporting and other resources to help secure your environment, making option C the correct \nanswer. Security Center, AIP, and Microsoft Defender do not provide that threat detection \nand reporting capability.",
+          "answer_explanation": "C. Azure Threat Protection (ATP) can detect and identify a variety of threats and provides \nreporting and other resources to help secure your environment, making option C the correct \nanswer. Security Center, AIP, and Microsoft Defender do not provide that threat detection \nand reporting capability."
+        },
+        {
+          "number": 18,
+          "question_and_options": "Which of the following threats can ATP help you detect?\nA.\nReconnaissance attacks\nB.\nPass-the-hash\nC.\nPass-the-token\nD. All of the above\n\n \n■Security, Compliance, Privacy, and Trust",
+          "answer": "D. ATP can help you detect all these types of attacks, as well as brute-force attacks, overpass-\nthe-hash, and domain dominance attacks.",
+          "answer_explanation": "D. ATP can help you detect all these types of attacks, as well as brute-force attacks, overpass-\nthe-hash, and domain dominance attacks."
+        },
+        {
+          "number": 19,
+          "question_and_options": "Which of the following is an example of a honeytoken attack?\nA. Testing multiple passwords against a username\nB. \nAuthentication attempts against an alphabetical list of usernames\nC. \nLogin to a fake account that you created\nD. None of the above",
+          "answer": "C. Testing multiple passwords against a username is an example of a brute-force attack. \nMaking authentication attempts against an alphabetical list of usernames is an example of a \nreconnaissance attack.",
+          "answer_explanation": "C. Testing multiple passwords against a username is an example of a brute-force attack. \nMaking authentication attempts against an alphabetical list of usernames is an example of a \nreconnaissance attack."
+        },
+        {
+          "number": 20,
+          "question_and_options": "You want to ensure that the VMs created in a resource group do not exceed certain limits for \ncores and other resources to reduce costs. Which of the following Azure features enables you \nto control this?\nA. Resource locks\nB. \nAzure policies\nC. \nAzure Resource Manager\nD. Azure initiatives",
+          "answer": "B. Azure policies enable you to create JSON-based rules that apply effects to resources, \nsuch as limiting the types of VMs that can be created in a resource group. Resource locks \napply restrictions on actions that you can take with resources but do not control the types of \nresources you can create. Azure Resource Manager is the template-based service that enables \n\nChapter 4: Security, Compliance, Privacy, and Trust \n\nyou to create resources but does not apply restrictions on resources. Azure initiatives enable \nyou to create and manage a group of policies but do not apply restrictions themselves.",
+          "answer_explanation": "B. Azure policies enable you to create JSON-based rules that apply effects to resources, \nsuch as limiting the types of VMs that can be created in a resource group. Resource locks \napply restrictions on actions that you can take with resources but do not control the types of \nresources you can create. Azure Resource Manager is the template-based service that enables \n\nChapter 4: Security, Compliance, Privacy, and Trust \n\nyou to create resources but does not apply restrictions on resources. Azure initiatives enable \nyou to create and manage a group of policies but do not apply restrictions themselves."
+        },
+        {
+          "number": 21,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure initiatives enable you to build blueprints to define how resources should be created \nand deployed in your Azure environment.\nA. control how blueprints are published and assigned to resources.\nB. \nenable you to manage and implement policies as a group to achieve governance goals.\nC. \ndefine security policies that you apply using Azure Security Center.\nD. No change is needed.",
+          "answer": "B. An initiative is a group of policies, enabling you to create, manage, and deploy policies \nas a group to support governance goals and organizational standards. Blueprints represent a \ndifferent service called Azure Blueprints that enable you to create repeatable groups of Azure \nresources, role assignments, and policies. You do not assign security policies using Azure \nSecurity Center.",
+          "answer_explanation": "B. An initiative is a group of policies, enabling you to create, manage, and deploy policies \nas a group to support governance goals and organizational standards. Blueprints represent a \ndifferent service called Azure Blueprints that enable you to create repeatable groups of Azure \nresources, role assignments, and policies. You do not assign security policies using Azure \nSecurity Center."
+        },
+        {
+          "number": 22,
+          "question_and_options": "Which of the following are correct statements describing Azure policies? (Choose all \nthat apply.)\nA. You can apply policies individually to a resource or within an Azure initiative.\nB. \nYou can apply permissions using policies to determine what actions a user can take \nagainst a resource.\nC. \nApplying a policy to resource group causes the policy to apply to all resources within \nthat resource group.\nD. Azure policies are a component of Security Center that enables you to define security-\nrelated policies to protect resources.",
+          "answer": "A, C. You can apply policies individually or within an initiative, which is a group of policies. \nYou cannot apply permissions using permissions with a policy; instead, you specify what \nactions are allowed with a specified scope based on the RBAC permissions a user already \nhas. A policy applies to all resources within the scope at which it is applied, making option C \ncorrect. Azure policies are not a component of Security Center.",
+          "answer_explanation": "A, C. You can apply policies individually or within an initiative, which is a group of policies. \nYou cannot apply permissions using permissions with a policy; instead, you specify what \nactions are allowed with a specified scope based on the RBAC permissions a user already \nhas. A policy applies to all resources within the scope at which it is applied, making option C \ncorrect. Azure policies are not a component of Security Center."
+        },
+        {
+          "number": 23,
+          "question_and_options": "Which of the following enable you to assign permissions to enable users to create and/or use \nresources in Azure?\nA.\nAzure policies\nB.\nResource groups\nC.\nRole-based access control (RBAC)\nD.\nSecurity Center",
+          "answer": "C. RBAC is the mechanism that enables you to specify permissions for Azure. Azure pol-\nicies, resource groups, and Security Center do not provide any capability to create or assign \npermissions.",
+          "answer_explanation": "C. RBAC is the mechanism that enables you to specify permissions for Azure. Azure pol-\nicies, resource groups, and Security Center do not provide any capability to create or assign \npermissions."
+        },
+        {
+          "number": 24,
+          "question_and_options": "You need to delegate the capability to add users in Azure to another individual at your orga-\nnization. Which of the following RBAC roles should you apply to the user to provide this \ncapability to manage management groups with the least privilege?\nA. Owner\nB. \nUser Access Administrator\nC. \nContributor\nD. Account Administrator",
+          "answer": "B. Although the Owner role has the capability to manage management groups, using the \nUser Access Administrator role grants the least privileges. The Account Administrator role is \nintended for managing subscriptions and billing.",
+          "answer_explanation": "B. Although the Owner role has the capability to manage management groups, using the \nUser Access Administrator role grants the least privileges. The Account Administrator role is \nintended for managing subscriptions and billing."
+        },
+        {
+          "number": 25,
+          "question_and_options": "What is the role you should use to grant users the capability to create and manage resources \nin Azure while ensuring they have the fewest permissions needed?\nA. Creator\nB. \nReader\nC. \nOwner\nD. Contributor",
+          "answer": "D. There is no Creator role in RBAC. Reader enables a user to access resources but not cre-\nate or modify them. The Owner role enables creating and managing resources but does not fit \nthe requirement for least privilege. Contributor enables the required permission while main-\ntaining least privilege.",
+          "answer_explanation": "D. There is no Creator role in RBAC. Reader enables a user to access resources but not cre-\nate or modify them. The Owner role enables creating and managing resources but does not fit \nthe requirement for least privilege. Contributor enables the required permission while main-\ntaining least privilege."
+        },
+        {
+          "number": 26,
+          "question_and_options": "Which of the following statements accurately describe Azure locks? (Choose all that apply.)\nA. An administrator with sufficient permissions in an RBAC role can override locks.\nB. \nIf you apply a lock to a resource group, the lock applies to all resources in the group, \nincluding any new resources that you create in the resource group.\nC. \nThe most restrictive lock applies in a situation where multiple locks are applied at differ-\nent scopes.\nD. You can delete a locked resource only after removing the lock, unless you have been \nassigned the Owner role.",
+          "answer": "B, C. RBAC roles do not override or take precedence over resource locks. Applying a lock to \na resource group applies the lock to all resources contained in the resource group, including \nnew resources that you later add. The most restrictive lock applies where more than one \nlock applies at different scopes. You cannot delete a resource without removing the lock, \nregardless of your role assignment.",
+          "answer_explanation": "B, C. RBAC roles do not override or take precedence over resource locks. Applying a lock to \na resource group applies the lock to all resources contained in the resource group, including \nnew resources that you later add. The most restrictive lock applies where more than one \nlock applies at different scopes. You cannot delete a resource without removing the lock, \nregardless of your role assignment."
+        },
+        {
+          "number": 27,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nThe CanNotDelete lock is more restrictive than the ReadOnly lock.\nA.\nprevents administrators from modifying a resource.\nB.\nenables administrators to read but not modify a resource.\nC.\nis less restrictive than the ReadOnly lock.\nD.\nNo change is needed.",
+          "answer": "C. The CanNotDelete lock enables read and modify rights for authorized administrators but \nnot delete rights for a resource. The ReadOnly lock allows only read access but not modifica-\ntion or deletion. The CanNotDelete lock is therefore less restrictive than the ReadOnly lock. \nCanNotDelete does not prevent modification, making option A incorrect.",
+          "answer_explanation": "C. The CanNotDelete lock enables read and modify rights for authorized administrators but \nnot delete rights for a resource. The ReadOnly lock allows only read access but not modifica-\ntion or deletion. The CanNotDelete lock is therefore less restrictive than the ReadOnly lock. \nCanNotDelete does not prevent modification, making option A incorrect."
+        },
+        {
+          "number": 28,
+          "question_and_options": "Which of the following statements are correct regarding Azure Blueprints? (Choose all \nthat apply.)\nA.\nAzure Blueprints use Azure Resource Manager (ARM) templates to deploy resources.\nB.\nAzure Blueprints let you define a repeatable group of Azure resources and associated \nrole assignments and policies.\nC.\nA blueprint does not take effect until you publish the blueprint.\nD. Azure provides multiple roles for creating and managing blueprints.\n\n \n■Security, Compliance, Privacy, and Trust",
+          "answer": "A, B, D. Azure Blueprints can use ARM templates to deploy resources. They also provide \na means to create repeatable groups of Azure resources with role assignments and policies. \nBlueprints must be assigned after publishing to apply them and have them take effect. Azure \nBlueprints supports multiple roles to control the actions users can take regarding blueprints.",
+          "answer_explanation": "A, B, D. Azure Blueprints can use ARM templates to deploy resources. They also provide \na means to create repeatable groups of Azure resources with role assignments and policies. \nBlueprints must be assigned after publishing to apply them and have them take effect. Azure \nBlueprints supports multiple roles to control the actions users can take regarding blueprints."
+        },
+        {
+          "number": 29,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nWhen you delete a blueprint, all of the resources defined in the blueprint are deleted.\nA. all versions of the blueprint are deleted.\nB. \nnone of the resources defined in the blueprint are deleted.\nC. \nyou must publish the change for it to take effect.\nD. No change is needed.",
+          "answer": "B. Deleting a blueprint does not delete the resources defined in the blueprint. Deleting a blue-\nprint only affects that version of the blueprint, not all versions. You must publish a blueprint \nbefore you can assign it, but not to delete it. \n\n \n■Answers to Review Questions",
+          "answer_explanation": "B. Deleting a blueprint does not delete the resources defined in the blueprint. Deleting a blue-\nprint only affects that version of the blueprint, not all versions. You must publish a blueprint \nbefore you can assign it, but not to delete it. \n\n \n■Answers to Review Questions"
+        },
+        {
+          "number": 30,
+          "question_and_options": "Which of the following statements regarding blueprints are accurate? (Choose all that apply.)\nA. All assignments of a blueprint are updated when you publish a new version of the blue-\nprint.\nB. \nWhen you unassign a blueprint, no resources defined in the blueprint are deleted but \nresource locking is removed.\nC. \nA user with the Blueprint Contributor role can manage and publish blueprints.\nD. You can delete a blueprint only if you unassign it first.",
+          "answer": "B, D. Publishing a blueprint does not assign the blueprint, making option A incorrect. When \nyou delete a blueprint, resource locking is removed but the resources are not deleted. A user \nwith the Blueprint Contributor role can manage blueprints but not publish them. You must \nunassign a blueprint before you can delete it.",
+          "answer_explanation": "B, D. Publishing a blueprint does not assign the blueprint, making option A incorrect. When \nyou delete a blueprint, resource locking is removed but the resources are not deleted. A user \nwith the Blueprint Contributor role can manage blueprints but not publish them. You must \nunassign a blueprint before you can delete it."
+        },
+        {
+          "number": 31,
+          "question_and_options": "Which of the following statements about Azure Monitor is not correct?\nA. Azure Monitor begins monitoring resources as soon as you create a resource.\nB. \nAzure Monitor begins monitoring resources as soon as you create metrics and logs for \nthem.\nC. \nApplication Insights enables developers to send telemetry data about the applications \nthey develop in Azure.\nD. Azure Monitor supports Windows and Linux operating systems.",
+          "answer": "B. Azure Monitor does not require you to create logs or metrics for it to start capturing data.",
+          "answer_explanation": "B. Azure Monitor does not require you to create logs or metrics for it to start capturing data."
+        },
+        {
+          "number": 32,
+          "question_and_options": "You are an Azure administrator and want to view status information for the resources \nthat you host in Azure, by region. Which of the following resources should you use for \nthat purpose?\nA. Azure Status\nB. \nAzure Service Health\nC. \nResource Health\nD. Azure Portal",
+          "answer": "B. Azure Status provides information about Azure services globally and not information \nspecific to your resources. Azure Service Health provides information about your resources \nby region. Resource Health provides information about resources but does not do so \nby region.",
+          "answer_explanation": "B. Azure Status provides information about Azure services globally and not information \nspecific to your resources. Azure Service Health provides information about your resources \nby region. Resource Health provides information about resources but does not do so \nby region."
+        },
+        {
+          "number": 33,
+          "question_and_options": "Which of the following would you use to view information about planned mainte-\nnance in Azure?\nA.\nAzure Monitor\nB.\nAzure Security Center\nC.\nAzure Advisor\nD.\nAzure Service Health",
+          "answer": "D. Of the available options, only Azure Service Health provides information on planned \nmaintenance in Azure.",
+          "answer_explanation": "D. Of the available options, only Azure Service Health provides information on planned \nmaintenance in Azure."
+        },
+        {
+          "number": 34,
+          "question_and_options": "Which of the following statements are correct about Azure Service Health? (Choose all \nthat apply.)\nA. Azure Service Health includes Azure Status, Service Health, and Resource Health.\nB. \nYou can set up service health alerts to send email and text notifications regarding items \ncollected by Azure Monitoring.\nC. \nYou can use Service Health to publish Azure alerts to a website using webhooks.\nD. You can create customizable dashboards in Azure Service Health to track the health of \nyour resources.",
+          "answer": "A, B, C, D. The options all describe features that are part of Azure Service Health.",
+          "answer_explanation": "A, B, C, D. The options all describe features that are part of Azure Service Health."
+        },
+        {
+          "number": 35,
+          "question_and_options": "Which of the following are standards-based, nonregulatory organizations or agencies? \n(Choose all that apply.)\nA. NIST\nB. \nISO\nC. \nGDPR\nD. HIPAA",
+          "answer": "A, B. NIST and ISO are both standards-based, nonregulatory entities. GDPR defines data \nprotection and privacy requirements as a regulation in European Union law and therefore is \nregulatory. HIPAA is a U.S. federal law and therefore also regulatory in nature.",
+          "answer_explanation": "A, B. NIST and ISO are both standards-based, nonregulatory entities. GDPR defines data \nprotection and privacy requirements as a regulation in European Union law and therefore is \nregulatory. HIPAA is a U.S. federal law and therefore also regulatory in nature."
+        },
+        {
+          "number": 36,
+          "question_and_options": "Which of the following statements is true? (Choose all that apply.)\nA. You must provide personal information to use some Microsoft products.\nB. \nMicrosoft cannot share your personal information with any third party.\nC. \nYou cannot use a work email when setting up a Microsoft account that you will use to \naccess Microsoft services.\nD. You must use a personal email account when setting up a Microsoft account.",
+          "answer": "A. Some Microsoft applications or services require that you provide personal information \nsuch as an email address in order to use the application or service. Microsoft can share your \npersonal information with vendors and affiliates, and when required by law or a legal process. \nYou can use a personal email, work email, or email account created by a third party such as \nan Internet service provider (ISP) to set up a Microsoft account, making options C and D both \nincorrect.",
+          "answer_explanation": "A. Some Microsoft applications or services require that you provide personal information \nsuch as an email address in order to use the application or service. Microsoft can share your \npersonal information with vendors and affiliates, and when required by law or a legal process. \nYou can use a personal email, work email, or email account created by a third party such as \nan Internet service provider (ISP) to set up a Microsoft account, making options C and D both \nincorrect."
+        },
+        {
+          "number": 37,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nThe Microsoft Trust Center enables you to view a broad range of security information about \nAzure and access risk assessments for your Azure resources.\nA. enables you to establish high-level initiatives and policies to drive security and compli-\nance.\nB. \nenables you to view audit and compliance reports published by Microsoft.\nC. \nis a website that provides information about how Microsoft implements and supports \ncompliance, security, privacy, and transparency across its cloud offerings.\nD. No change is needed.",
+          "answer": "C. Trust Center does not provide any capability to perform risk assessments, establish pol-\nicies or initiatives, or view audit and compliance reports. Trust Center is a public website that \noffers a broad range of information about compliance, security, privacy, and transparency.",
+          "answer_explanation": "C. Trust Center does not provide any capability to perform risk assessments, establish pol-\nicies or initiatives, or view audit and compliance reports. Trust Center is a public website that \noffers a broad range of information about compliance, security, privacy, and transparency."
+        },
+        {
+          "number": 38,
+          "question_and_options": "You are a compliance manager for your organization, which has decided to move several ser-\nvices from your on-premises data center into Azure. Which of the following should you use \nto view audit reports published by Microsoft to assure your CIO that Azure offers a secure \nand compliant platform?\nA. Trust Center\nB. \nCompliance Manager\n\n \n■Security, Compliance, Privacy, and Trust\nC. \nService Trust Portal\nD. Azure Compliance Portal",
+          "answer": "C. Service Trust Portal is the website where Microsoft publishes audit reports and other \ncompliance-related information to help your organization meet regulatory and compliance \nrequirements. Trust Center and Compliance Manager do not provide audit reporting, and \nAzure Compliance Portal does not exist.",
+          "answer_explanation": "C. Service Trust Portal is the website where Microsoft publishes audit reports and other \ncompliance-related information to help your organization meet regulatory and compliance \nrequirements. Trust Center and Compliance Manager do not provide audit reporting, and \nAzure Compliance Portal does not exist."
+        },
+        {
+          "number": 39,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nCompliance is the sole responsibility of Microsoft.\nA. is the sole responsibility of organizations that host their services in Azure.\nB. \nis a shared responsibility between your organization and Microsoft.\nC. \nis guaranteed by SLAs in Azure.\nD. No change is needed.",
+          "answer": "B. Microsoft provides a compliance framework and the ability to meet compliance require-\nments, but each organization must also ensure that their Azure implementations are com-\npliant. Compliance is therefore a shared responsibility. There are no SLAs associated with \ncompliance in Azure.",
+          "answer_explanation": "B. Microsoft provides a compliance framework and the ability to meet compliance require-\nments, but each organization must also ensure that their Azure implementations are com-\npliant. Compliance is therefore a shared responsibility. There are no SLAs associated with \ncompliance in Azure."
+        },
+        {
+          "number": 40,
+          "question_and_options": "Which of the following statements are correct regarding Azure Government? (Choose all \nthat apply.)\nA. Azure Government is an isolated instance of Azure in the United States.\nB. \nAzure Government is only available to governmental entities in the United States.\nC. \nHosting in Azure Government meets all governmental compliance requirements.\nD. Resources deployed to Azure Government are hosted in data centers that are separate \nfrom nongovernment resources.",
+          "answer": "A, D. Azure Government is an isolated instance of Azure with data centers that are sepa-\nrate from commercial, nongovernment Azure data centers. Azure Government is available \nto U.S. governmental entities and to solution providers that support them. Although Azure \nGovernment offers a high level of compliance with government requirements, including \nDepartment of Defense (DoD) requirements, entities hosting services in Azure Government \nmust ensure compliance.",
+          "answer_explanation": "A, D. Azure Government is an isolated instance of Azure with data centers that are sepa-\nrate from commercial, nongovernment Azure data centers. Azure Government is available \nto U.S. governmental entities and to solution providers that support them. Although Azure \nGovernment offers a high level of compliance with government requirements, including \nDepartment of Defense (DoD) requirements, entities hosting services in Azure Government \nmust ensure compliance."
+        },
+        {
+          "number": 41,
+          "question_and_options": "Which of the following statements are correct regarding Azure China?\nA. Azure China is available only to Chinese governmental agencies and solution providers \nthat support them.\nB. \nAzure China is an isolated instance of Azure managed by Microsoft.\nC. \nYou can easily move resources and Azure accounts from Azure to Azure China, and vice \nversa.\nD. A Chinese company, 21Vianet, manages Azure China.",
+          "answer": "D. Azure China is available to any entity needing to host Azure resources within China; it \nis not restricted to governmental agencies or solution providers. Although Azure China is \nan isolated instance of Azure, it is not managed by Microsoft, making option B an incorrect \nanswer. Because of differences in services and pricing, you cannot easily move resources and \naccounts between Azure and Azure China. Azure China is managed by 21Vianet based on \ntechnology licensed from Microsoft, making D the only correct option.",
+          "answer_explanation": "D. Azure China is available to any entity needing to host Azure resources within China; it \nis not restricted to governmental agencies or solution providers. Although Azure China is \nan isolated instance of Azure, it is not managed by Microsoft, making option B an incorrect \nanswer. Because of differences in services and pricing, you cannot easily move resources and \naccounts between Azure and Azure China. Azure China is managed by 21Vianet based on \ntechnology licensed from Microsoft, making D the only correct option."
+        },
+        {
+          "number": 42,
+          "question_and_options": "Which of the following provides broad guidance, tools, and assessments to help with a \nmigration of workloads to Azure?\nA.\nFastTrack for Azure\nB.\nAzure Advisor\nC.\nCloud Adoption Framework for Azure\nD.\nAzure Migration Planning Service",
+          "answer": "C. Option C is correct. The Cloud Adoption Framework for Azure provides a large library of \ndocumentation built on best practices, planning templates and tools, and assessments to help \nyou deploy Azure workloads. FastTrack for Azure can assist you with deploying Azure but \ndoes not offer the breadth of information, guidance, and tools included in the framework. \nAzure Advisor provides guidance around security of your existing Azure environment. There \nis no service called Azure Migration Planning Service.",
+          "answer_explanation": "C. Option C is correct. The Cloud Adoption Framework for Azure provides a large library of \ndocumentation built on best practices, planning templates and tools, and assessments to help \nyou deploy Azure workloads. FastTrack for Azure can assist you with deploying Azure but \ndoes not offer the breadth of information, guidance, and tools included in the framework. \nAzure Advisor provides guidance around security of your existing Azure environment. There \nis no service called Azure Migration Planning Service."
+        }
+      ]
+    },
+    {
+      "id": "chapter_5_azure_solutions",
+      "question_count": 11,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nIoT Hub is an Azure service that enables you to view telemetry from IoT devices and view a \ndashboard showing device state.\nA. supports secure communication between devices and controls applications using custom \nmicrocontrollers and certificate-based authentication of devices.\nB. \nprovides bidirectional communication between IoT devices and other Azure services and/\nor an IoT application.\nC. \nenables you to easily manage deployed IoT devices with dashboards and reports.\nD. No change is needed.",
+          "answer": "B. IoT Hub provides bidirectional communication services for IoT devices and IoT appli-\ncations and services. Dashboards for viewing and managing devices is a function of IoT \nCentral, not IoT Hub. Option A describes the function of Azure Sphere.",
+          "answer_explanation": "B. IoT Hub provides bidirectional communication services for IoT devices and IoT appli-\ncations and services. Dashboards for viewing and managing devices is a function of IoT \nCentral, not IoT Hub. Option A describes the function of Azure Sphere."
+        },
+        {
+          "number": 2,
+          "question_and_options": "Your organization is building an IoT solution that enables you to monitor and control \nthousands of sensors deployed in your manufacturing facilities. You need to be able to ana-\nlyze the telemetry data coming from the devices. Which of the following is the appropriate \nAzure solution?\nA. IoT Hub\nB. \nIoT Central\nC. \nSphere\nD. None of the above",
+          "answer": "B. IoT Central provides the means to receive data from IoT devices and analyze telemetry \ndata. IoT Hub enables you to gather data from IoT devices but does not provide analysis \ncapabilities, making option A incorrect. Sphere is appropriate for developing highly secure \nIoT solutions and is not the best solution in this scenario.",
+          "answer_explanation": "B. IoT Central provides the means to receive data from IoT devices and analyze telemetry \ndata. IoT Hub enables you to gather data from IoT devices but does not provide analysis \ncapabilities, making option A incorrect. Sphere is appropriate for developing highly secure \nIoT solutions and is not the best solution in this scenario."
+        },
+        {
+          "number": 3,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Machine Learning consists of multiple services that enable you to use data to train and\nvalidate AI models.\nA.\nenables you to create virtual machine agents that learn from user interaction and provide \ncorresponding services such as answering questions.\nB.\ncan be used to analyze photos and videos for content.\nC.\nenables you to deploy AI models as stand-alone applications in Azure or on premises.\nD.\nNo change is needed.",
+          "answer": "D. Azure Machine Learning consists of multiple services for building, training, and validating \nAI models that can then be deployed as web services in Azure. Cognitive Services is used \nto analyze photos, videos, and other content, not Azure Machine Learning, making option \nB incorrect. With Azure Machine Learning, you can deploy models as web services, not as \nstandalone applications.",
+          "answer_explanation": "D. Azure Machine Learning consists of multiple services for building, training, and validating \nAI models that can then be deployed as web services in Azure. Cognitive Services is used \nto analyze photos, videos, and other content, not Azure Machine Learning, making option \nB incorrect. With Azure Machine Learning, you can deploy models as web services, not as \nstandalone applications."
+        },
+        {
+          "number": 4,
+          "question_and_options": "Which of the following describe Azure Machine Learning Studio? (Choose all that apply.)\nA.\nIt provides the ability for developers to create no-code and code-first machine learning \nsolutions.\nB.\nIt provides a web portal through which developers can use drag-and-drop to create \nmachine learning solutions.\nC.\nIt enables you to deploy machine learning models as web services.\nD. None of the above\n\n \n■Azure Solutions",
+          "answer": "A, B, C. Azure Machine Learning Studio provides all of features and functions described in \noptions A, B, and C.",
+          "answer_explanation": "A, B, C. Azure Machine Learning Studio provides all of features and functions described in \noptions A, B, and C."
+        },
+        {
+          "number": 5,
+          "question_and_options": "Which of the following are capabilities of Azure Cognitive Services? (Choose all that apply.)\nA. Processes natural language to determine what a user is asking.\nB. \nPerforms translation from one language to another.\nC. \nActs as a virtual agent to interact with users in a humanlike way.\nD. Analyzes photos to identify content within them.",
+          "answer": "A, B, D. Azure Cognitive Services offers the capabilities described in options A, B, and D. \nAzure Bot Service gives you the ability to act as a virtual agent, not Cognitive Services, mak-\ning option C incorrect.",
+          "answer_explanation": "A, B, D. Azure Cognitive Services offers the capabilities described in options A, B, and D. \nAzure Bot Service gives you the ability to act as a virtual agent, not Cognitive Services, mak-\ning option C incorrect."
+        },
+        {
+          "number": 6,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Bot Services provides the capability to analyze photos and other data types to identify \nspecific content.\nA. is a stand-alone Azure service that cannot interact with other Azure services.\nB. \nprovides natural language translation services.\nC. \nenables you to build virtual agents that interact with users in a humanlike way.\nD. No change is needed.",
+          "answer": "C. Azure Bot Service can interact with other Azure services, making option A incorrect. \nAzure Cognitive Services provides natural language translation capabilities and the ability to \nanalyze data content, not Azure Bot Service.",
+          "answer_explanation": "C. Azure Bot Service can interact with other Azure services, making option A incorrect. \nAzure Cognitive Services provides natural language translation capabilities and the ability to \nanalyze data content, not Azure Bot Service."
+        },
+        {
+          "number": 7,
+          "question_and_options": "Which of the following Azure services provides the ability to create workflow-based \nprocesses?\nA. Functions\nB. \nBot Service\nC. \nLogic Apps\nD. None of the above",
+          "answer": "C. Logic Apps is the workflow creation and orchestration solution in Azure. Functions \nenables you to create serverless application functions but does not provide workflow creation \nand orchestration. You use Bot Service to create virtual agents.\nChapter 5: Azure Solutions \n\n■Answers to Review Questions",
+          "answer_explanation": "C. Logic Apps is the workflow creation and orchestration solution in Azure. Functions \nenables you to create serverless application functions but does not provide workflow creation \nand orchestration. You use Bot Service to create virtual agents.\nChapter 5: Azure Solutions \n\n■Answers to Review Questions"
+        },
+        {
+          "number": 8,
+          "question_and_options": "Which of the following correctly describe Azure Functions? (Choose all that apply.)\nA. Functions are typically stateless but can be made stateful with the addition of a storage \naccount.\nB. \nFunctions operate independently and cannot be integrated with Logic Apps.\nC. \nYou can use drag-and-drop features to create functions that automate processes.\nD. Functions can be developed with any of several programming languages.",
+          "answer": "A, D. Azure Functions and Azure Logic Apps can integrate with one another, making option \nB incorrect. Drag-and-drop workflow creation is an aspect of Logic Apps, not Functions.",
+          "answer_explanation": "A, D. Azure Functions and Azure Logic Apps can integrate with one another, making option \nB incorrect. Drag-and-drop workflow creation is an aspect of Logic Apps, not Functions."
+        },
+        {
+          "number": 9,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Artifacts is a component service of Azure DevOps that provides a repository for \nstoring development artifacts such as compiled source code.\nA.\nprovides a means for managing development projects and individual items such as  \nfeatures and bugs.\nB.\nis intended for open source code development projects.\nC.\nworks in conjunction with Azure Blueprints to provide a means of storing information \nabout Azure resources.\nD.\nNo change is needed.",
+          "answer": "D. Azure Boards provides the means for managing development projects and items, making \noption A incorrect. GitHub and GitHub Actions are intended for open source projects and \ncollaboration, not Azure Artifacts. Azure Artifacts does not store information about Azure \nresources for use with Blueprints.",
+          "answer_explanation": "D. Azure Boards provides the means for managing development projects and items, making \noption A incorrect. GitHub and GitHub Actions are intended for open source projects and \ncollaboration, not Azure Artifacts. Azure Artifacts does not store information about Azure \nresources for use with Blueprints."
+        },
+        {
+          "number": 10,
+          "question_and_options": "Which of the following is intended primarily for collaborating on open source \ndevelopment efforts?\nA. Azure Repos\nB. \nAzure Boards\nC. \nGitHub\nD. Azure DevTest Labs",
+          "answer": "C. Azure Repos and Boards are components of Azure DevOps Services intended primarily \nfor enterprise and custom development, not open source projects. Azure DevTest Labs pro-\nvides features for easily deploying and decommissioning Azure resources such as virtual \nmachines, network security groups, and other resources to support app testing.",
+          "answer_explanation": "C. Azure Repos and Boards are components of Azure DevOps Services intended primarily \nfor enterprise and custom development, not open source projects. Azure DevTest Labs pro-\nvides features for easily deploying and decommissioning Azure resources such as virtual \nmachines, network security groups, and other resources to support app testing."
+        },
+        {
+          "number": 11,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure DevTest Labs provides a customizable development environment in which your \ndevelopers can collaborate on code projects.\nA.\nprovides alerting and monitoring tools to analyze telemetry from servers in an applica-\ntion test.\nB.\nenables your development team to quickly and easily deploy virtual machines and other \nAzure resources to test an application, then decommission those resources.\nC.\ncan provision Windows servers but not Linux servers.\nD.\nNo change is needed.",
+          "answer": "B. Azure DevTest Labs does not provide a development environment, making the sample \nstatement incorrect. Azure DevTest Labs does not provide alerting and monitoring tools, \nmaking option B incorrect. Azure DevTest Labs can deploy Windows and Linux servers, as \nwell as other Azure resources, through ARM templates.",
+          "answer_explanation": "B. Azure DevTest Labs does not provide a development environment, making the sample \nstatement incorrect. Azure DevTest Labs does not provide alerting and monitoring tools, \nmaking option B incorrect. Azure DevTest Labs can deploy Windows and Linux servers, as \nwell as other Azure resources, through ARM templates."
+        }
+      ]
+    },
+    {
+      "id": "chapter_6_azure_pricing_service_levels_lifecycle",
+      "question_count": 16,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "Which of the following is the first step in deploying services to Azure?\nA. Choosing a storage tier\nB. \nPurchasing the appropriate Azure resources\nC. \nCreating an Azure subscription\nD. None of the above",
+          "answer": "C. Although considerable planning needs to take place beforehand, the first step in deploy-\ning a service in Azure is creating the subscription that will contain the resource(s). You would \nchoose a storage tier only after the subscription exists and when you are deploying storage. \nWhether you purchase services or use free services, you must still have a subscription, making \noption B incorrect.",
+          "answer_explanation": "C. Although considerable planning needs to take place beforehand, the first step in deploy-\ning a service in Azure is creating the subscription that will contain the resource(s). You would \nchoose a storage tier only after the subscription exists and when you are deploying storage. \nWhether you purchase services or use free services, you must still have a subscription, making \noption B incorrect."
+        },
+        {
+          "number": 2,
+          "question_and_options": "You are deploying a new solution that requires four instances of Azure SQL Server in an \nexisting subscription, and you receive a message that you need to increase the subscription \nlimit to create these resources. Which option correctly describes how to increase the limit?\nA. Modify the policy that is restricting you from creating the resource.\nB. \nUse Azure Resource Manager to increase the limits.\nC. \nYou must create a new subscription and deploy the resources to it.\nD. Open an online support case to have Microsoft increase the limit for you.",
+          "answer": "D. You must open a support case with Microsoft to increase subscription limits, making \noption D correct. Azure Resource Manager enables you to create resources but does not \nenable you to modify limits. Although you could create a new subscription, doing so does not \nsuit the requirements of this scenario.",
+          "answer_explanation": "D. You must open a support case with Microsoft to increase subscription limits, making \noption D correct. Azure Resource Manager enables you to create resources but does not \nenable you to modify limits. Although you could create a new subscription, doing so does not \nsuit the requirements of this scenario."
+        },
+        {
+          "number": 3,
+          "question_and_options": "Which of the following is not an option for purchasing Azure services?\nA. Enterprise agreement\nB. \nCloud solution provider\nC. \nWeb Direct\nD. Unified Support",
+          "answer": "D. Options A, B, and C are all methods for purchasing Azure services. Unified Support is a \nMicrosoft support offering that provides as-needed support for all of your Microsoft on-prem-\nises and cloud technologies, but it does not provide a means for purchasing Azure services.",
+          "answer_explanation": "D. Options A, B, and C are all methods for purchasing Azure services. Unified Support is a \nMicrosoft support offering that provides as-needed support for all of your Microsoft on-prem-\nises and cloud technologies, but it does not provide a means for purchasing Azure services."
+        },
+        {
+          "number": 4,
+          "question_and_options": "Which two of the following would potentially increase operational costs for an Azure solu-\ntion that you have deployed?\nA. The region in which the resources are deployed\nB. \nThe subscription in which the resources are deployed\nC. \nThe billing account used for the target subscription\nD. Deploying resources across multiple regions",
+          "answer": "A, D. One region might have different resources costs than another region, and you might \nincur costs for data transfers between regions, making options A and D correct in this sce-\nnario. The target subscription and billing account have no effect on cost.",
+          "answer_explanation": "A, D. One region might have different resources costs than another region, and you might \nincur costs for data transfers between regions, making options A and D correct in this sce-\nnario. The target subscription and billing account have no effect on cost."
+        },
+        {
+          "number": 5,
+          "question_and_options": "You are the Director of Infrastructure for your organization, which currently has no Azure \nsubscriptions. Your CIO has requested an estimate of how much your organization can save \nby moving its entire data center to Azure. Which of the following should you use for an \ninitial overall estimate?\nA. Azure Advisor\nB. \nPricing Calculator\nC. \nTCO Calculator\nD. Create an Azure subscription and use the Azure Estimator tool to model costs.",
+          "answer": "C. The TCO Calculator factors in workload types, facilities and staffing costs, and other \nassumptions to provide an overall cost for an Azure deployment. You would use Azure \nAdvisor after you have a subscription and deploy resources to help manage cost, so option \nA is incorrect for this scenario. The Pricing Calculator estimates costs for specific workloads \nwithout factoring in facilities and other costs, making option B incorrect. There is no Azure \nEstimator tool.\n\nChapter 6: Azure Pricing, Service Levels, and Lifecycle",
+          "answer_explanation": "C. The TCO Calculator factors in workload types, facilities and staffing costs, and other \nassumptions to provide an overall cost for an Azure deployment. You would use Azure \nAdvisor after you have a subscription and deploy resources to help manage cost, so option \nA is incorrect for this scenario. The Pricing Calculator estimates costs for specific workloads \nwithout factoring in facilities and other costs, making option B incorrect. There is no Azure \nEstimator tool.\n\nChapter 6: Azure Pricing, Service Levels, and Lifecycle"
+        },
+        {
+          "number": 6,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nThe Azure Pricing Calculator enables you to estimate the cost of a specific Azure solution \nbased on the resources and services in that solution.\n\nA. can calculate the estimated cost of moving a data center to Azure.\nB. \nfactors facilities costs such as power and cooling into an estimate.\nC. \nis a downloadable tool that can help you calculate the costs of deploying an Azure solu-\ntion.\nD. No change is needed.",
+          "answer": "D. The TCO Calculator is the appropriate tool when you need to estimate an entire data center \nmove to Azure and factor in corresponding facilities costs, making options A and B incorrect. The \nPricing Calculator is a web-based tool available outside of Azure; it is not a downloadable tool.",
+          "answer_explanation": "D. The TCO Calculator is the appropriate tool when you need to estimate an entire data center \nmove to Azure and factor in corresponding facilities costs, making options A and B incorrect. The \nPricing Calculator is a web-based tool available outside of Azure; it is not a downloadable tool."
+        },
+        {
+          "number": 7,
+          "question_and_options": "Which of the following use scenarios are appropriate for Azure Advisor? (Choose all \nthat apply.)\nA. Determining ways to reduce costs\nB. \nDeploying security policies and initiatives based on recommendations from Microsoft\nC. \nGetting recommendations for improving security\nD. Viewing service health",
+          "answer": "A, C. Azure Advisor provides recommendations for cost management, security, operational \nexcellence, reliability, and performance, making options A and C correct. You cannot deploy \npolicies or initiatives through Azure Advisor. Service Health is the appropriate service to view \nservice health, making option D incorrect.",
+          "answer_explanation": "A, C. Azure Advisor provides recommendations for cost management, security, operational \nexcellence, reliability, and performance, making options A and C correct. You cannot deploy \npolicies or initiatives through Azure Advisor. Service Health is the appropriate service to view \nservice health, making option D incorrect."
+        },
+        {
+          "number": 8,
+          "question_and_options": "Your organization completed a sizable Azure deployment over the past year encompassing \ncompute, storage, big data, and serverless computing, with a relatively small DevOps compo-\nnent. As the IT Director, you have been tasked by the CIO with reducing Azure expenditures. \nYou cannot reduce the resources you have deployed in Azure. Which option could provide \nthe most significant cost savings?\nA. Reviewing and resizing VMs\nB. \nMoving resources to less expensive regions\nC. \nUsing Azure reservations to prepay for services\nD. Moving from Azure SQL Database to Azure SQL Managed Instance",
+          "answer": "C. Prepaying for Azure services through Azure reservations could result in as much as 70 \npercent savings on many of your Azure resources, making C the option with the potential \nfor greatest cost savings. Although resizing VMs can reduce costs, this scenario encompasses \nmuch more than just VMs. Moving resources to a less expensive region could reduce some \ncosts but could also result in added cost for network traffic. Moving from Azure SQL Data-\nbase to Azure SQL Managed Instance would not likely result in a significant savings.",
+          "answer_explanation": "C. Prepaying for Azure services through Azure reservations could result in as much as 70 \npercent savings on many of your Azure resources, making C the option with the potential \nfor greatest cost savings. Although resizing VMs can reduce costs, this scenario encompasses \nmuch more than just VMs. Moving resources to a less expensive region could reduce some \ncosts but could also result in added cost for network traffic. Moving from Azure SQL Data-\nbase to Azure SQL Managed Instance would not likely result in a significant savings."
+        },
+        {
+          "number": 9,
+          "question_and_options": "Which of the following is most likely to increase Azure operational costs?\nA. Adding another subscription\nB. \nMoving storage from the hot access tier to the archive tier\nC. \nDeploying connected resources across multiple regions\nD. None of the above",
+          "answer": "C. Adding another subscription does not in itself increase Azure costs, because you could \nbe simply moving existing resources from an existing subscription to the new one. Moving \nstorage from the hot access tier to archive should reduce costs. Deploying connected resources \nacross multiple regions will generate egress traffic that will increase operational costs.",
+          "answer_explanation": "C. Adding another subscription does not in itself increase Azure costs, because you could \nbe simply moving existing resources from an existing subscription to the new one. Moving \nstorage from the hot access tier to archive should reduce costs. Deploying connected resources \nacross multiple regions will generate egress traffic that will increase operational costs."
+        },
+        {
+          "number": 10,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAzure Hybrid Benefit is a cost-saving option offered by Microsoft for all Azure hybrid \ndeployments.\nA.\nenables you to leverage your existing Windows Server and SQL Server licenses that are \ncovered by Software Assurance for deployments in Azure.\nB.\nreduces pricing for network ingress traffic from your on-premises data center to Azure in \na hybrid deployment.\nC.\nenables you to leverage all your Microsoft perpetual licenses in Azure if those licenses \nare decommissioned in your on-premises data center.\nD.\nNo change is needed.\n\n \n■Azure Pricing, Service Levels, and Lifecycle",
+          "answer": "A. Azure Hybrid Benefit enables you to use Windows Server and SQL Server licenses that are \ncovered by Software Assurance in Azure, thus reducing costs. Azure Hybrid Benefit does not \napply to all hybrid deployments, nor does it affect network pricing. It is specific to Windows \nServer and SQL Server, not to all Microsoft licenses that your organization owns.",
+          "answer_explanation": "A. Azure Hybrid Benefit enables you to use Windows Server and SQL Server licenses that are \ncovered by Software Assurance in Azure, thus reducing costs. Azure Hybrid Benefit does not \napply to all hybrid deployments, nor does it affect network pricing. It is specific to Windows \nServer and SQL Server, not to all Microsoft licenses that your organization owns."
+        },
+        {
+          "number": 11,
+          "question_and_options": "Which of the following enables you to define budgets for your subscriptions and receive noti-\nfications when spending crosses alert thresholds that you have set?\nA. Azure Quota Management\nB. \nAzure Budget Management\nC. \nAzure Cost Management\nD. Azure Monitor",
+          "answer": "C. Azure Cost Management is the service that enables you to establish budgets on \nyour Azure subscriptions and receive alerts, making C the correct option. Azure Quota \nManagement and Azure Budget Management are not services in Azure. Azure Monitor \nenables you to establish alerts but is not specific to spending or cost management.",
+          "answer_explanation": "C. Azure Cost Management is the service that enables you to establish budgets on \nyour Azure subscriptions and receive alerts, making C the correct option. Azure Quota \nManagement and Azure Budget Management are not services in Azure. Azure Monitor \nenables you to establish alerts but is not specific to spending or cost management."
+        },
+        {
+          "number": 12,
+          "question_and_options": "You are planning to deploy a solution in Azure that comprises two VMs, each of which has a",
+          "answer": "D. A composite SLA is always the product of the individual SLAs for the resources in the \nsolution, making D the correct option.",
+          "answer_explanation": "D. A composite SLA is always the product of the individual SLAs for the resources in the \nsolution, making D the correct option."
+        },
+        {
+          "number": 13,
+          "question_and_options": "You have deployed several VMs into Azure and need to increase the SLA for the VMs to meet \nmandated business requirements. Which of the following would achieve that requirement?\nA. Adding more storage for the VMs\nB. \nDeploying additional instances of the VMs to two or more availability zones\nC. \nIncreasing the number of VMs\nD. None of the above",
+          "answer": "B. Adding more storage for the VMs increases costs but does not improve the SLA. Simply \nincreasing the number of VMs also increases costs without improving the SLA and in fact \ncan actually reduce the SLA depending on how they are deployed. Using availability zones \ncan improve the SLA in this scenario.",
+          "answer_explanation": "B. Adding more storage for the VMs increases costs but does not improve the SLA. Simply \nincreasing the number of VMs also increases costs without improving the SLA and in fact \ncan actually reduce the SLA depending on how they are deployed. Using availability zones \ncan improve the SLA in this scenario."
+        },
+        {
+          "number": 14,
+          "question_and_options": "Is the underlined portion of the following statement true, or does it need to be replaced with \none of the other fragments that appear below?\nAn Azure service that is in public preview is available to public customers by invitation from \nMicrosoft.\nA. available to all Azure customers.\nB. \navailable only with an enterprise agreement.\nC. \nsubject to SLAs.\nD. No change is needed.",
+          "answer": "A. Features and services in public preview are available to all Azure customers, regardless \nof how they purchase Azure, making option B incorrect. Preview features are not subject to \nSLAs, making option C incorrect.",
+          "answer_explanation": "A. Features and services in public preview are available to all Azure customers, regardless \nof how they purchase Azure, making option B incorrect. Preview features are not subject to \nSLAs, making option C incorrect."
+        },
+        {
+          "number": 15,
+          "question_and_options": "Which of the following accurately describe Azure Services that are in private preview? \n(Choose all that apply.)\nA.\nThey are available for all customers in the United States only.\nB.\nThey are available for customers by invitation from Microsoft.\nC.\nThey are generally not subject to SLAs.\nD.\nThey are not guaranteed to move to general availability.",
+          "answer": "B, C, D. Features in private preview are available to organizations by invitation from Micro-\nsoft regardless of where the customer is located. Like features in public preview, they are not \nsubject to SLAs and are not guaranteed to move to general availability.",
+          "answer_explanation": "B, C, D. Features in private preview are available to organizations by invitation from Micro-\nsoft regardless of where the customer is located. Like features in public preview, they are not \nsubject to SLAs and are not guaranteed to move to general availability."
+        },
+        {
+          "number": 16,
+          "question_and_options": "How much notice does Microsoft provide before it retires an Azure service?\nA.\n30 days\nB.\n6 months\nC.\n12 months\nD.\n5 years",
+          "answer": "C. Microsoft provides 12 months’ notice before retiring an Azure service.\n\n \n■Answers to Review Questions",
+          "answer_explanation": "C. Microsoft provides 12 months’ notice before retiring an Azure service.\n\n \n■Answers to Review Questions"
+        }
+      ]
+    },
+    {
+      "id": "chapter_7_creating_managing_azure_resources",
+      "question_count": 6,
+      "questions": [
+        {
+          "number": 1,
+          "question_and_options": "You are a developer and need to deploy a single VM to test some code overnight. Which of \nthe following management options is the best choice?\nA. Azure PowerShell\nB. \nAzure CLI\nC. \nAzure portal\nD. ARM templates",
+          "answer": "C. Creating a single VM is a one-off management task most easily accomplished through \nthe Azure portal. Azure PowerShell and the Azure CLI require familiarity with the respective \nsyntax and would be more appropriate for more complex management tasks or scripting \ndeployment of many resources.",
+          "answer_explanation": "C. Creating a single VM is a one-off management task most easily accomplished through \nthe Azure portal. Azure PowerShell and the Azure CLI require familiarity with the respective \nsyntax and would be more appropriate for more complex management tasks or scripting \ndeployment of many resources."
+        },
+        {
+          "number": 2,
+          "question_and_options": "You are an infrastructure management engineer for your organization. You work most with \nLinux servers and are therefore very familiar with Bash and know what command you would \nuse to retrieve specific properties of a VM. Which of the following management solutions \nshould you use to retrieve a property of one of the VMs that you manage?\nA. Azure PowerShell\nB. \nAzure CLI\nC. \nAzure portal\nD. Azure Monitor",
+          "answer": "B. The Azure CLI is an implementation of Bash, making it the appropriate choice in this sce-\nnario. Azure PowerShell could be used as well but requires familiarity with PowerShell syntax. \nThe Azure portal could also be used, but entering an Azure CLI command would generally be \nquicker than navigating to the resource in the Azure portal to view its properties. Azure Mon-\nitor is not an appropriate solution for viewing the properties of resources in this scenario.",
+          "answer_explanation": "B. The Azure CLI is an implementation of Bash, making it the appropriate choice in this sce-\nnario. Azure PowerShell could be used as well but requires familiarity with PowerShell syntax. \nThe Azure portal could also be used, but entering an Azure CLI command would generally be \nquicker than navigating to the resource in the Azure portal to view its properties. Azure Mon-\nitor is not an appropriate solution for viewing the properties of resources in this scenario."
+        },
+        {
+          "number": 3,
+          "question_and_options": "You are the Director of IT for your organization. Your CIO has asked you what methods or \nprocesses your organization should consider using to build out the capability to deploy large \nnumbers of Azure resources with connected services and policies in a controlled way. Which \nof the following solutions should you recommend?\nA. Azure PowerShell\nB. \nAzure CLI\nC. \nAzure portal\nD. ARM templates",
+          "answer": "D. Although you can script the deployment of resources using scripts with Azure PowerShell \nand the Azure CLI, the appropriate approach in this scenario is to use ARM templates. The \ntemplates can incorporate related resources such as networking, storage, and other resources. \nResource Manager also orchestrates the deployment of resources in the proper order so you \ndon’t have to include that in your solution. The Azure portal is useful for one-off deploy-\nments of a small number of resources.",
+          "answer_explanation": "D. Although you can script the deployment of resources using scripts with Azure PowerShell \nand the Azure CLI, the appropriate approach in this scenario is to use ARM templates. The \ntemplates can incorporate related resources such as networking, storage, and other resources. \nResource Manager also orchestrates the deployment of resources in the proper order so you \ndon’t have to include that in your solution. The Azure portal is useful for one-off deploy-\nments of a small number of resources."
+        },
+        {
+          "number": 4,
+          "question_and_options": "You want to use the Azure CLI to perform management functions in Azure. Which of the fol-\nlowing configurations does not suit this requirement?\nA. You install the Azure CLI on a Windows 10 PC.\nB. \nYou install the Azure CLI on a Mac.\nC. \nYou open the Azure portal in a browser and then run the Azure CLI in the Azure Cloud \nShell.\nD. You run the Azure CLI from PowerShell on a Windows 10 device.",
+          "answer": "D. The Azure CLI is available for installation on Windows 10, Mac, and Linux, enabling it to \nrun natively on all three. You can also run the Azure CLI from within the Azure Cloud Shell. \nAzure PowerShell and the Azure CLI are different tools that provide essentially the same \nfunctionality, but you cannot run one inside the other, making option D the only answer that \ndoes not fit this scenario.",
+          "answer_explanation": "D. The Azure CLI is available for installation on Windows 10, Mac, and Linux, enabling it to \nrun natively on all three. You can also run the Azure CLI from within the Azure Cloud Shell. \nAzure PowerShell and the Azure CLI are different tools that provide essentially the same \nfunctionality, but you cannot run one inside the other, making option D the only answer that \ndoes not fit this scenario."
+        },
+        {
+          "number": 5,
+          "question_and_options": "You are out of the office at an appointment and one of your team members sends you an \nurgent request to reset a web app because the only other people with the appropriate access \nare not available. All you have is your mobile device. Which two options can you use to reset \nthe web app?\nA. Azure portal\nB. \nAzure CLI\n\n \n■Creating and Managing Azure Resources\nC. \nAzure Cloud Shell\nD. Azure PowerShell",
+          "answer": "B, C. The Azure Mobile App enables you to run the Azure CLI, and you can also run the CLI \nwithin the Azure Cloud Shell, which you access through your browser, making options B and \nC correct. You cannot run the Azure CLI directly in the Azure portal, but you instead must \nopen the Azure Cloud Shell. You cannot run the Azure CLI from PowerShell.",
+          "answer_explanation": "B, C. The Azure Mobile App enables you to run the Azure CLI, and you can also run the CLI \nwithin the Azure Cloud Shell, which you access through your browser, making options B and \nC correct. You cannot run the Azure CLI directly in the Azure portal, but you instead must \nopen the Azure Cloud Shell. You cannot run the Azure CLI from PowerShell."
+        },
+        {
+          "number": 6,
+          "question_and_options": "Which blade in the Azure portal should you use to view security alerts and recom-\nmendations?\nA.\nAll Services\nB.\nApp Security\nC.\nSecurity Center\nD.\nMonitor",
+          "answer": "C. The Security Center blade in the Azure portal provides quick access to the Security Center, \nwhere you can view alerts and security recommendations. The other options either do not \nexist as blades or do not provide the easiest means for accessing the Security Center.",
+          "answer_explanation": "C. The Security Center blade in the Azure portal provides quick access to the Security Center, \nwhere you can view alerts and security recommendations. The other options either do not \nexist as blades or do not provide the easiest means for accessing the Security Center."
+        }
+      ]
+    }
+  ]
+}
